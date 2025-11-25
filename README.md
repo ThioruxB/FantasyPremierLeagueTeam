@@ -8,7 +8,6 @@
 
 <table>
   <tr>
-    <td align="center"><b>Dashboard de Análisis</b></td>
     <td align="center"><b>Detalle de Jugadores</b></td>
   </tr>
   <tr>
