@@ -12,7 +12,6 @@
     <td align="center"><b>Detalle de Jugadores</b></td>
   </tr>
   <tr>
-    <td><img src="data/output/eda.html" alt="Dashboard Demo" width="420"></td>
     <td><img src="img/demos2.png" alt="Player Detail Demo" width="420"></td>
   </tr>
 </table>
