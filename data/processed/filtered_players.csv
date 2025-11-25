@@ -1,0 +1,495 @@
+﻿id,Nombre,Apellido,team_id,Posicion,Precio,Puntos Totales,tendencia,status,news,chance_of_playing_next_round,form,opponent,is_home,difficulty,valor
+1,David,Raya Martín,1,Goalkeeper,59,53,0,a,,,5.2,18,True,1175,0.8813559322033898
+2,Kepa,Arrizabalaga Revuelta,1,Goalkeeper,42,0,0,a,,,0.0,18,True,1175,0.0
+4,Tommy,Setford,1,Goalkeeper,40,0,0,a,,,0.0,18,True,1175,0.0
+6,William,Saliba,1,Defender,60,39,0,a,,100.0,4.0,18,True,1175,0.6666666666666666
+8,Jurriën,Timber,1,Defender,62,67,1,a,,,6.2,18,True,1175,1.0
+10,Myles,Lewis-Skelly,1,Defender,51,6,-1,a,,,0.8,18,True,1175,0.15686274509803924
+11,Benjamin,White,1,Defender,53,6,0,a,,100.0,0.0,18,True,1175,0.0
+13,Brayden,Clarke,1,Defender,38,0,-1,a,,,0.0,18,True,1175,0.0
+15,Josh,Nichols,1,Defender,39,0,0,a,,,0.0,18,True,1175,0.0
+16,Bukayo,Saka,1,Midfielder,101,45,0,a,,100.0,4.6,18,True,1175,0.4554455445544554
+20,Leandro,Trossard,1,Midfielder,69,40,0,a,,100.0,4.8,18,True,1175,0.6956521739130435
+21,Declan,Rice,1,Midfielder,69,65,1,a,,100.0,8.6,18,True,1175,1.2463768115942029
+22,Mikel,Merino Zazón,1,Midfielder,59,23,0,a,,,2.0,18,True,1175,0.3389830508474576
+24,Christian,Nørgaard,1,Midfielder,52,2,0,a,,100.0,0.4,18,True,1175,0.07692307692307693
+25,Ethan,Nwaneri,1,Midfielder,51,7,-1,a,,,0.4,18,True,1175,0.07843137254901962
+26,Martín,Zubimendi Ibáñez,1,Midfielder,54,48,0,a,,100.0,3.2,18,True,1175,0.5925925925925926
+266,Eberechi,Eze,1,Midfielder,76,41,0,a,,,5.0,18,True,1175,0.6578947368421053
+662,Cristhian,Mosquera,1,Defender,54,14,0,a,,,0.4,18,True,1175,0.07407407407407407
+700,Max,Dowman,1,Midfielder,43,5,0,a,,,0.0,18,True,1175,0.0
+711,Andre,Harriman-Annous,1,Midfielder,45,0,0,a,,,0.0,18,True,1175,0.0
+725,Piero,Hincapié,1,Defender,54,2,0,a,,100.0,0.4,18,True,1175,0.07407407407407407
+32,Emiliano,Martínez Romero,2,Goalkeeper,50,40,0,a,,100.0,3.0,11,False,1095,0.6
+33,Marco,Bizot,2,Goalkeeper,43,7,0,a,,,0.0,11,False,1095,0.0
+37,Lucas,Digne,2,Defender,45,42,0,a,,100.0,3.6,11,False,1095,0.8
+39,Ian,Maatsen,2,Defender,42,6,-1,a,,,0.8,11,False,1095,0.19047619047619047
+41,Pau,Torres,2,Defender,43,25,0,a,,,3.2,11,False,1095,0.744186046511628
+45,Lino,da Cruz Sousa,2,Defender,39,0,0,a,,,0.0,11,False,1095,0.0
+47,Morgan,Rogers,2,Midfielder,68,35,0,a,,100.0,4.2,11,False,1095,0.6176470588235294
+48,Youri,Tielemans,2,Midfielder,59,12,0,a,,100.0,0.0,11,False,1095,0.0
+50,Emiliano,Buendía Stati,2,Midfielder,53,39,0,a,,100.0,4.6,11,False,1095,0.8679245283018867
+53,Donyell,Malen,2,Midfielder,51,32,0,a,,,4.0,11,False,1095,0.7843137254901962
+54,John,McGinn,2,Midfielder,54,30,0,a,,,3.0,11,False,1095,0.5555555555555555
+55,Ross,Barkley,2,Midfielder,48,10,0,a,,100.0,0.8,11,False,1095,0.16666666666666669
+58,Boubacar,Kamara,2,Midfielder,49,23,0,a,,100.0,2.4,11,False,1095,0.48979591836734687
+60,Ben,Broggio,2,Midfielder,45,0,0,a,,,0.0,11,False,1095,0.0
+62,Jamaldeen,Jimoh-Aloba,2,Midfielder,45,0,0,a,,,0.0,11,False,1095,0.0
+63,Kadan,Young,2,Midfielder,44,0,0,a,,,0.0,11,False,1095,0.0
+64,Ollie,Watkins,2,Forward,85,27,0,a,,100.0,3.0,11,False,1095,0.35294117647058826
+389,Harvey,Elliott,2,Midfielder,54,4,0,a,,100.0,0.2,11,False,1095,0.037037037037037035
+456,Jadon,Sancho,2,Midfielder,58,4,0,a,,100.0,0.4,11,False,1095,0.06896551724137931
+677,Evann,Guessand,2,Midfielder,62,14,-1,a,,,1.4,11,False,1095,0.2258064516129032
+688,James,Wright,2,Goalkeeper,40,0,0,a,,,0.0,11,False,1095,0.0
+702,Bradley,Burrowes,2,Midfielder,44,1,-1,a,,,0.0,11,False,1095,0.0
+703,Sam,Proctor,2,Goalkeeper,40,0,0,a,,,0.0,11,False,1095,0.0
+710,Travis,Patterson,2,Defender,39,0,0,a,,,0.0,11,False,1095,0.0
+719,Victor,Lindelöf,2,Defender,45,3,0,a,,100.0,0.4,11,False,1095,0.08888888888888889
+183,Max,Weiß,3,Goalkeeper,43,0,-1,a,,,0.0,7,True,1190,0.0
+185,Václav,Hladký,3,Goalkeeper,40,0,0,a,,,0.0,7,True,1190,0.0
+187,Kyle,Walker,3,Defender,44,29,0,a,,,3.6,7,True,1190,0.8181818181818181
+188,Hannes,Delcroix,3,Defender,39,0,0,a,,,0.0,7,True,1190,0.0
+190,Hjalmar,Ekdal,3,Defender,40,20,0,a,,,0.2,7,True,1190,0.05
+191,Maxime,Estève,3,Defender,39,28,-1,a,,,1.8,7,True,1190,0.46153846153846156
+192,Quilindschy,Hartman,3,Defender,40,36,0,a,,,4.2,7,True,1190,1.05
+193,Bashir,Humphreys,3,Defender,40,0,0,a,,100.0,0.0,7,True,1190,0.0
+195,Lucas,Pires Silva,3,Defender,39,1,0,a,,,0.0,7,True,1190,0.0
+197,Oliver,Sonne,3,Defender,39,3,0,a,,,0.0,7,True,1190,0.0
+198,Axel,Tuanzebe,3,Defender,39,16,0,a,,100.0,2.6,7,True,1190,0.6666666666666667
+199,Joe,Worrall,3,Defender,39,4,0,a,,,0.2,7,True,1190,0.05128205128205129
+200,Jaidon,Anthony,3,Midfielder,56,49,-1,a,,100.0,2.6,7,True,1190,0.46428571428571436
+202,Jacob,Bruun Larsen,3,Midfielder,53,16,0,a,,100.0,1.2,7,True,1190,0.22641509433962265
+203,Enock,Agyei,3,Midfielder,48,0,0,a,,,0.0,7,True,1190,0.0
+205,Josh,Cullen,3,Midfielder,50,53,0,a,,,3.2,7,True,1190,0.64
+206,Marcus,Edwards,3,Midfielder,47,3,0,a,,,0.2,7,True,1190,0.0425531914893617
+207,Hannibal,Mejbri,3,Midfielder,48,21,0,a,,,1.2,7,True,1190,0.25
+209,Josh,Laurent,3,Midfielder,49,15,0,a,,,1.6,7,True,1190,0.32653061224489793
+210,Loum,Tchaouna,3,Midfielder,49,22,0,a,,,2.0,7,True,1190,0.4081632653061224
+213,Jaydon,Banel,3,Midfielder,45,0,0,a,,,0.0,7,True,1190,0.0
+214,Mike,Trésor Ndayishimiye,3,Midfielder,44,0,0,a,,,0.0,7,True,1190,0.0
+215,Zian,Flemming,3,Forward,53,25,0,a,,,3.4,7,True,1190,0.6415094339622641
+217,Lyle,Foster,3,Forward,50,28,0,a,,100.0,2.0,7,True,1190,0.4
+218,Ashley,Barnes,3,Forward,43,1,0,a,,,0.2,7,True,1190,0.04651162790697675
+470,Martin,Dúbravka,3,Goalkeeper,40,35,0,a,,100.0,3.2,7,True,1190,0.8
+676,Lesley,Ugochukwu,3,Midfielder,50,32,0,a,,100.0,4.4,7,True,1190,0.8800000000000001
+722,Florentino Ibrain,Morris Luís,3,Midfielder,50,28,0,a,,,4.0,7,True,1190,0.8
+67,Đorđe,Petrović,4,Goalkeeper,45,40,0,a,,,3.6,19,True,1075,0.8
+68,Will,Dennis,4,Goalkeeper,40,0,0,a,,,0.0,19,True,1075,0.0
+69,Callan,McKenna,4,Goalkeeper,40,0,0,a,,,0.0,19,True,1075,0.0
+72,Marcos,Senesi Barón,4,Defender,50,58,0,a,,,3.8,19,True,1075,0.76
+73,Adam,Smith,4,Defender,44,9,0,a,,100.0,0.0,19,True,1075,0.0
+74,Adrien,Truffert,4,Defender,45,45,0,a,,,4.2,19,True,1075,0.9333333333333333
+76,Owen,Bevan,4,Defender,39,0,0,a,,,0.0,19,True,1075,0.0
+77,James,Hill,4,Defender,40,17,0,a,,,1.4,19,True,1075,0.35
+78,Julián,Araujo Zúñiga,4,Defender,39,0,0,a,,100.0,0.0,19,True,1075,0.0
+80,Julio,Soler Barreto,4,Defender,40,1,0,a,,100.0,0.0,19,True,1075,0.0
+84,Marcus,Tavernier,4,Midfielder,55,47,0,a,,,4.4,19,True,1075,0.8
+86,David,Brooks,4,Midfielder,50,21,0,a,,100.0,1.0,19,True,1075,0.2
+87,Ryan,Christie,4,Midfielder,50,16,0,a,,100.0,2.4,19,True,1075,0.48
+88,Lewis,Cook,4,Midfielder,49,5,0,a,,100.0,0.6,19,True,1075,0.12244897959183672
+90,Alex,Scott,4,Midfielder,50,36,0,a,,,3.0,19,True,1075,0.6
+97,Francisco Evanilson,de Lima Barbosa,4,Forward,70,25,0,a,,100.0,1.0,19,True,1075,0.14285714285714285
+98,Enes,Ünal,4,Forward,54,1,0,a,,100.0,0.2,19,True,1075,0.037037037037037035
+100,Junior,Kroupi,4,Forward,46,30,0,a,,,5.2,19,True,1075,1.1304347826086958
+685,Bafodé,Diakité,4,Defender,45,30,0,a,,100.0,1.8,19,True,1075,0.4
+687,Remy,Rees-Dottin,4,Midfielder,44,0,0,a,,,0.0,19,True,1075,0.0
+697,Amine,Adli,4,Midfielder,54,8,0,a,,,0.6,19,True,1075,0.1111111111111111
+713,Álex,Jiménez Sánchez,4,Defender,45,8,0,a,,,1.8,19,True,1075,0.4
+721,Veljko,Milosavljevic,4,Defender,45,13,0,a,,,1.4,19,True,1075,0.3111111111111111
+27,Reiss,Nelson,5,Midfielder,48,2,0,a,,100.0,0.2,6,False,1150,0.04166666666666667
+83,Dango,Ouattara,5,Midfielder,60,39,0,a,,100.0,3.6,6,False,1150,0.6
+101,Caoimhín,Kelleher,5,Goalkeeper,45,32,0,a,,100.0,4.0,6,False,1150,0.8888888888888888
+102,Ellery,Balcombe,5,Goalkeeper,40,0,0,a,,,0.0,6,False,1150,0.0
+103,Matthew,Cox,5,Goalkeeper,40,0,0,a,,,0.0,6,False,1150,0.0
+104,Julian,Eyestone,5,Goalkeeper,39,0,-1,a,,,0.0,6,False,1150,0.0
+105,Hákon Rafn,Valdimarsson,5,Goalkeeper,39,0,0,a,,,0.0,6,False,1150,0.0
+106,Nathan,Collins,5,Defender,49,32,0,a,,,3.0,6,False,1150,0.6122448979591836
+107,Keane,Lewis-Potter,5,Defender,49,21,0,a,,,1.2,6,False,1150,0.24489795918367344
+108,Kristoffer,Ajer,5,Defender,44,19,0,a,,100.0,2.6,6,False,1150,0.5909090909090908
+109,Rico,Henry,5,Defender,43,6,0,a,,,0.4,6,False,1150,0.0930232558139535
+110,Michael,Kayode,5,Defender,45,34,0,a,,,3.0,6,False,1150,0.6666666666666666
+111,Ethan,Pinnock,5,Defender,43,0,0,a,,100.0,0.0,6,False,1150,0.0
+113,Sepp,van den Berg,5,Defender,45,34,0,a,,,3.2,6,False,1150,0.7111111111111111
+114,Benjamin,Arthur,5,Defender,39,0,0,a,,100.0,0.0,6,False,1150,0.0
+116,Aaron,Hickey,5,Defender,40,8,0,a,,100.0,0.8,6,False,1150,0.2
+120,Kevin,Schade,5,Midfielder,70,40,0,a,,100.0,3.8,6,False,1150,0.5428571428571428
+121,Mikkel,Damsgaard,5,Midfielder,58,33,0,a,,,3.2,6,False,1150,0.5517241379310345
+123,Fábio,Freitas Gouveia Carvalho,5,Midfielder,48,13,-1,a,,,0.4,6,False,1150,0.08333333333333334
+124,Jordan,Henderson,5,Midfielder,50,29,0,a,,,2.4,6,False,1150,0.48
+125,Vitaly,Janelt,5,Midfielder,49,10,0,a,,100.0,1.6,6,False,1150,0.32653061224489793
+126,Mathias,Jensen,5,Midfielder,49,21,0,a,,,3.0,6,False,1150,0.6122448979591836
+127,Gustavo,Nunes Fernandes Gomes,5,Midfielder,49,0,0,a,,100.0,0.0,6,False,1150,0.0
+128,Frank,Onyeka,5,Midfielder,49,12,0,a,,,0.6,6,False,1150,0.12244897959183672
+129,Yehor,Yarmoliuk,5,Midfielder,50,33,0,a,,100.0,3.0,6,False,1150,0.6
+130,Romelle,Donovan,5,Midfielder,45,0,0,a,,,0.0,6,False,1150,0.0
+131,Yunus Emre,Konak,5,Midfielder,44,0,0,a,,,0.0,6,False,1150,0.0
+132,Paris,Maghoma,5,Midfielder,45,0,0,a,,100.0,0.0,6,False,1150,0.0
+133,Myles,Peart-Harris,5,Midfielder,44,0,0,a,,,0.0,6,False,1150,0.0
+136,Igor Thiago,Nascimento Rodrigues,5,Forward,63,60,1,a,,,6.0,6,False,1150,0.9523809523809524
+137,Iwan,Morgan,5,Forward,44,0,0,a,,,0.0,6,False,1150,0.0
+138,Jason,Steele,6,Goalkeeper,43,0,0,a,,,0.0,5,True,1175,0.0
+139,Bart,Verbruggen,6,Goalkeeper,44,26,0,a,,,2.4,5,True,1175,0.5454545454545454
+140,Tom,McGill,6,Goalkeeper,40,0,0,a,,,0.0,5,True,1175,0.0
+143,Olivier,Boscagli,6,Defender,43,0,0,a,,,0.0,5,True,1175,0.0
+144,Diego,Coppola,6,Defender,43,3,0,a,,,0.2,5,True,1175,0.04651162790697675
+145,Maxim,De Cuyper,6,Defender,43,16,0,a,,100.0,2.0,5,True,1175,0.46511627906976744
+146,Lewis,Dunk,6,Defender,45,29,0,a,,,2.0,5,True,1175,0.4444444444444444
+148,Ferdi,Kadıoğlu,6,Defender,44,22,0,a,,,2.2,5,True,1175,0.5
+151,Jan Paul,van Hecke,6,Defender,44,40,0,a,,,5.4,5,True,1175,1.2272727272727273
+152,Joël,Veltman,6,Defender,43,7,0,a,,100.0,0.0,5,True,1175,0.0
+156,Charlie,Tasker,6,Defender,39,0,0,a,,,0.0,5,True,1175,0.0
+158,Georginio,Rutter,6,Midfielder,57,30,0,a,,100.0,3.0,5,True,1175,0.5263157894736842
+160,Yankuba,Minteh,6,Midfielder,60,50,0,a,,,4.6,5,True,1175,0.7666666666666666
+167,Carlos,Baleba,6,Midfielder,47,16,0,a,,,1.6,5,True,1175,0.3404255319148936
+169,Diego,Gómez Amarilla,6,Midfielder,49,28,0,a,,100.0,4.4,5,True,1175,0.8979591836734694
+172,Tom,Watson,6,Midfielder,49,2,0,a,,100.0,0.4,5,True,1175,0.08163265306122448
+173,Mats,Wieffer,6,Midfielder,49,36,0,a,,100.0,5.0,5,True,1175,1.0204081632653061
+175,Joe,Knight,6,Midfielder,45,1,0,a,,,0.2,5,True,1175,0.044444444444444446
+178,Danny,Welbeck,6,Forward,65,45,0,a,,,7.4,5,True,1175,1.1384615384615384
+180,Stefanos,Tzimas,6,Forward,53,10,0,a,,,1.6,5,True,1175,0.30188679245283023
+181,Charalampos,Kostoulas,6,Forward,48,8,0,a,,,1.4,5,True,1175,0.2916666666666667
+744,Nehemiah,Oriola,6,Midfielder,45,1,0,a,,,0.3333333333333333,5,True,1175,0.07407407407407407
+168,Facundo,Buonanotte,7,Midfielder,47,1,0,a,,100.0,0.0,3,False,1055,0.0
+220,Robert,Lynch Sánchez,7,Goalkeeper,48,37,0,a,,,3.0,3,False,1055,0.625
+221,Filip,Jörgensen,7,Goalkeeper,43,1,-1,a,,,0.0,3,False,1055,0.0
+223,Gabriel,Słonina,7,Goalkeeper,39,0,0,a,,,0.0,3,False,1055,0.0
+224,Marc,Cucurella Saseta,7,Defender,61,49,0,a,,,4.6,3,False,1055,0.7540983606557377
+225,Reece,James,7,Defender,56,46,1,a,,100.0,6.6,3,False,1055,1.1785714285714286
+226,Trevoh,Chalobah,7,Defender,51,55,0,a,,100.0,2.2,3,False,1055,0.4313725490196079
+228,Malo,Gusto,7,Defender,49,39,0,a,,100.0,2.8,3,False,1055,0.5714285714285714
+230,Wesley,Fofana,7,Defender,44,15,0,a,,100.0,1.2,3,False,1055,0.2727272727272727
+232,Tosin,Adarabioyo,7,Defender,42,14,-1,a,,100.0,0.6,3,False,1055,0.14285714285714285
+233,Josh,Acheampong,7,Defender,39,27,0,a,,100.0,3.6,3,False,1055,0.9230769230769231
+238,Estêvão,Almeida de Oliveira Gonçalves,7,Midfielder,65,29,0,a,,,3.2,3,False,1055,0.49230769230769234
+239,Jamie,Bynoe-Gittens,7,Midfielder,61,9,0,a,,,0.8,3,False,1055,0.13114754098360656
+241,Moisés,Caicedo Corozo,7,Midfielder,61,60,1,a,,100.0,5.0,3,False,1055,0.819672131147541
+243,Tyrique,George,7,Midfielder,49,4,0,a,,,0.2,3,False,1055,0.04081632653061224
+246,Andrey,Nascimento dos Santos,7,Midfielder,45,7,0,a,,100.0,0.4,3,False,1055,0.08888888888888889
+249,João Pedro,Junqueira de Jesus,7,Forward,75,59,1,a,,,3.4,3,False,1055,0.4533333333333333
+250,Liam,Delap,7,Forward,62,6,0,a,,100.0,0.0,3,False,1055,0.0
+252,Marc,Guiu Paz,7,Forward,42,7,0,a,,100.0,0.8,3,False,1055,0.19047619047619047
+453,Alejandro,Garnacho Ferreyra,7,Midfielder,64,24,0,a,,,2.4,3,False,1055,0.37499999999999994
+672,Jorrel,Hato,7,Defender,47,3,0,a,,,0.6,3,False,1055,0.1276595744680851
+743,Landon,Emenalo,7,Midfielder,45,0,0,a,,,0.0,3,False,1055,0.0
+253,Dean,Henderson,8,Goalkeeper,50,45,0,a,,,2.8,20,False,1070,0.5599999999999999
+254,Walter,Benítez,8,Goalkeeper,40,0,0,a,,100.0,0.0,20,False,1070,0.0
+255,Remi,Matthews,8,Goalkeeper,39,0,-1,a,,,0.0,20,False,1070,0.0
+256,Daniel,Muñoz Mejía,8,Defender,58,60,1,a,,,5.6,20,False,1070,0.9655172413793103
+257,Maxence,Lacroix,8,Defender,50,56,0,a,,,4.0,20,False,1070,0.8
+258,Tyrick,Mitchell,8,Defender,50,55,0,a,,,2.8,20,False,1070,0.5599999999999999
+259,Borna,Sosa,8,Defender,48,1,0,a,,,0.2,20,False,1070,0.04166666666666667
+261,Chris,Richards,8,Defender,45,52,0,a,,100.0,3.6,20,False,1070,0.8
+262,Chadi,Riad Dnanou,8,Defender,40,0,0,a,,100.0,0.0,20,False,1070,0.0
+263,Nathaniel,Clyne,8,Defender,39,1,0,a,,,0.0,20,False,1070,0.0
+267,Ismaïla,Sarr,8,Midfielder,67,46,0,a,,100.0,5.0,20,False,1070,0.7462686567164178
+269,Romain,Esse,8,Midfielder,47,1,0,a,,,0.0,20,False,1070,0.0
+270,Will,Hughes,8,Midfielder,48,14,0,a,,100.0,0.6,20,False,1070,0.125
+271,Daichi,Kamada,8,Midfielder,50,32,0,a,,100.0,3.6,20,False,1070,0.72
+272,Jefferson,Lerma Solís,8,Midfielder,49,21,0,a,,,2.6,20,False,1070,0.5306122448979592
+273,Adam,Wharton,8,Midfielder,50,26,0,a,,100.0,2.0,20,False,1070,0.4
+274,Asher,Agbinone,8,Midfielder,44,0,0,a,,,0.0,20,False,1070,0.0
+275,Naouirou,Ahamada,8,Midfielder,44,0,0,a,,,0.0,20,False,1070,0.0
+276,Justin,Devenny,8,Midfielder,43,9,0,a,,,0.6,20,False,1070,0.13953488372093023
+281,Kaden,Rodney,8,Midfielder,45,0,0,a,,,0.0,20,False,1070,0.0
+283,Jean-Philippe,Mateta,8,Forward,81,50,1,a,,,6.4,20,False,1070,0.7901234567901235
+286,Zach,Marsh,8,Forward,45,0,0,a,,,0.0,20,False,1070,0.0
+712,Yéremy,Pino Santos,8,Midfielder,58,15,0,a,,100.0,1.8,20,False,1070,0.3103448275862069
+723,Jaydee,Canvot,8,Defender,45,11,0,a,,,0.2,20,False,1070,0.044444444444444446
+732,Christantus,Uche,8,Forward,55,3,0,a,,,0.4,20,False,1070,0.07272727272727274
+242,Kiernan,Dewsbury-Hall,9,Midfielder,49,35,0,a,,100.0,1.4,14,False,1135,0.2857142857142857
+287,Jordan,Pickford,9,Goalkeeper,55,42,0,a,,,2.0,14,False,1135,0.36363636363636365
+288,Mark,Travers,9,Goalkeeper,44,0,0,a,,,0.0,14,False,1135,0.0
+289,Harry,Tyrer,9,Goalkeeper,39,0,0,a,,,0.0,14,False,1135,0.0
+291,James,Tarkowski,9,Defender,54,43,0,a,,,2.4,14,False,1135,0.4444444444444444
+292,Vitalii,Mykolenko,9,Defender,49,17,0,a,,100.0,1.8,14,False,1135,0.36734693877551017
+293,Jake,O'Brien,9,Defender,49,28,0,a,,,2.2,14,False,1135,0.4489795918367347
+294,Séamus,Coleman,9,Defender,43,2,0,a,,,0.2,14,False,1135,0.04651162790697675
+295,Michael,Keane,9,Defender,45,56,0,a,,100.0,4.2,14,False,1135,0.9333333333333333
+297,Roman,Dixon,9,Defender,39,0,0,a,,,0.0,14,False,1135,0.0
+298,Reece,Welch,9,Defender,39,0,0,a,,,0.0,14,False,1135,0.0
+299,Iliman,Ndiaye,9,Midfielder,66,55,1,a,,100.0,4.8,14,False,1135,0.7272727272727273
+300,Dwight,McNeil,9,Midfielder,55,3,-1,a,,,0.4,14,False,1135,0.07272727272727274
+301,Carlos,Alcaraz Durán,9,Midfielder,52,8,0,a,,,0.8,14,False,1135,0.15384615384615385
+302,Idrissa Gana,Gueye,9,Midfielder,54,42,0,a,,,2.4,14,False,1135,0.4444444444444444
+303,James,Garner,9,Midfielder,50,42,0,a,,,2.8,14,False,1135,0.5599999999999999
+304,Tim,Iroegbunam,9,Midfielder,49,18,0,a,,,1.2,14,False,1135,0.24489795918367344
+306,Callum,Bates,9,Midfielder,44,0,0,a,,,0.0,14,False,1135,0.0
+307,Coby,Ebere,9,Midfielder,44,0,0,a,,,0.0,14,False,1135,0.0
+310,Thierno,Barry,9,Forward,57,12,0,a,,,0.8,14,False,1135,0.14035087719298245
+311,Norberto Bercique,Gomes Betuncal,9,Forward,52,21,0,a,,,1.6,14,False,1135,0.3076923076923077
+419,Jack,Grealish,9,Midfielder,68,43,0,a,,100.0,3.0,14,False,1135,0.4411764705882353
+630,Tom,King,9,Goalkeeper,39,0,0,a,,,0.0,14,False,1135,0.0
+667,Adam,Aznou,9,Defender,43,0,0,a,,100.0,0.0,14,False,1135,0.0
+705,Elijah,Campbell,9,Defender,39,0,0,a,,,0.0,14,False,1135,0.0
+707,Tyler,Dibling,9,Midfielder,54,3,0,a,,,0.4,14,False,1135,0.07407407407407407
+728,Merlin,Röhl,9,Midfielder,50,4,0,a,,100.0,0.4,14,False,1135,0.08
+314,Bernd,Leno,10,Goalkeeper,50,34,0,a,,,3.0,17,True,1145,0.6
+317,Joachim,Andersen,10,Defender,45,39,0,a,,100.0,2.6,17,True,1145,0.5777777777777778
+318,Calvin,Bassey,10,Defender,45,28,0,a,,,1.8,17,True,1145,0.4
+319,Timothy,Castagne,10,Defender,44,10,0,a,,,1.4,17,True,1145,0.3181818181818181
+320,Issa,Diop,10,Defender,44,4,0,a,,,0.8,17,True,1145,0.18181818181818182
+321,Jorge,Cuenca Barreno,10,Defender,44,7,0,a,,,0.8,17,True,1145,0.18181818181818182
+322,Kenny,Tete,10,Defender,45,26,0,a,,100.0,1.6,17,True,1145,0.35555555555555557
+323,Samuel,Amissah,10,Defender,39,0,0,a,,,0.0,17,True,1145,0.0
+324,Alex,Iwobi,10,Midfielder,65,40,0,a,,,2.4,17,True,1145,0.3692307692307692
+325,Emile,Smith Rowe,10,Midfielder,56,16,0,a,,100.0,1.0,17,True,1145,0.17857142857142858
+326,Adama,Traoré Diarra,10,Midfielder,52,11,0,a,,,1.4,17,True,1145,0.2692307692307692
+328,Ryan,Sessegnon,10,Midfielder,54,47,0,a,,100.0,6.2,17,True,1145,1.1481481481481481
+329,Harry,Wilson,10,Midfielder,52,34,0,a,,100.0,3.2,17,True,1145,0.6153846153846154
+330,Sander,Berge,10,Midfielder,49,27,0,a,,,2.6,17,True,1145,0.5306122448979592
+331,Tom,Cairney,10,Midfielder,49,8,0,a,,100.0,1.2,17,True,1145,0.24489795918367344
+335,Josh,King,10,Midfielder,45,19,0,a,,,2.0,17,True,1145,0.4444444444444444
+336,Harrison,Reed,10,Midfielder,43,0,-1,a,,,0.0,17,True,1145,0.0
+337,Raúl,Jiménez Rodríguez,10,Forward,62,25,0,a,,100.0,3.6,17,True,1145,0.5806451612903226
+664,Benjamin,Lecomte,10,Goalkeeper,39,0,-1,a,,,0.0,17,True,1145,0.0
+727,Samuel,Chukwueze,10,Midfielder,53,7,0,a,,100.0,1.2,17,True,1145,0.22641509433962265
+731,Kevin,Santos Lopes de Macedo,10,Midfielder,59,10,-1,a,,100.0,1.4,17,True,1145,0.23728813559322032
+737,Jonah,Kusi-Asare,10,Forward,45,1,0,a,,,0.2,17,True,1145,0.044444444444444446
+339,Illan,Meslier,11,Goalkeeper,43,0,0,a,,,0.0,2,True,1185,0.0
+340,Alex,Cairns,11,Goalkeeper,40,0,0,a,,,0.0,2,True,1185,0.0
+341,Karl,Darlow,11,Goalkeeper,40,10,0,a,,,0.8,2,True,1185,0.2
+342,Jayden,Bogle,11,Defender,45,28,0,a,,100.0,2.0,2,True,1185,0.4444444444444444
+343,Pascal,Struijk,11,Defender,44,25,0,a,,100.0,0.8,2,True,1185,0.18181818181818182
+344,Jaka,Bijol,11,Defender,39,6,0,a,,100.0,1.0,2,True,1185,0.25641025641025644
+346,Sam,Byram,11,Defender,39,1,0,a,,,0.0,2,True,1185,0.0
+347,Gabriel,Gudmundsson,11,Defender,40,27,0,a,,100.0,1.0,2,True,1185,0.25
+348,Joe,Rodon,11,Defender,41,46,0,a,,100.0,4.6,2,True,1185,1.1219512195121952
+350,Brenden,Aaronson,11,Midfielder,54,41,0,a,,,4.8,2,True,1185,0.8888888888888888
+351,Wilfried,Gnonto,11,Midfielder,52,6,0,a,,100.0,0.0,2,True,1185,0.0
+352,Jack,Harrison,11,Midfielder,52,11,0,a,,,1.2,2,True,1185,0.23076923076923075
+353,Daniel,James,11,Midfielder,53,11,0,a,,100.0,0.6,2,True,1185,0.11320754716981132
+354,Ethan,Ampadu,11,Midfielder,49,24,0,a,,100.0,2.2,2,True,1185,0.4489795918367347
+356,Ilia,Gruev,11,Midfielder,48,7,0,a,,,0.0,2,True,1185,0.0
+358,Tanaka,Ao,11,Midfielder,48,13,0,a,,100.0,1.6,2,True,1185,0.33333333333333337
+362,Joël,Piroe,11,Forward,50,6,0,a,,100.0,0.4,2,True,1185,0.08
+365,Lukas,Nmecha,11,Forward,50,23,0,a,,100.0,1.0,2,True,1185,0.2
+493,Sean,Longstaff,11,Midfielder,49,38,0,a,,,5.2,2,True,1185,1.0612244897959184
+660,Anton,Stach,11,Midfielder,49,40,0,a,,,1.4,2,True,1185,0.2857142857142857
+665,Lucas Estella,Perri,11,Goalkeeper,45,17,0,a,,100.0,0.6,2,True,1185,0.13333333333333333
+691,Dominic,Calvert-Lewin,11,Forward,55,25,0,a,,100.0,2.0,2,True,1185,0.36363636363636365
+698,Noah,Okafor,11,Midfielder,55,29,0,a,,100.0,3.2,2,True,1185,0.5818181818181819
+706,James,Justin,11,Defender,39,4,-1,a,,,0.4,2,True,1185,0.10256410256410257
+741,Harry,Gray,11,Forward,45,0,0,a,,100.0,0.0,2,True,1185,0.0
+367,Giorgi,Mamardashvili,12,Goalkeeper,43,19,0,a,,,2.4,16,True,1130,0.5581395348837209
+368,Ármin,Pécsi,12,Goalkeeper,39,0,0,a,,,0.0,16,True,1130,0.0
+369,Freddie,Woodman,12,Goalkeeper,39,0,0,a,,,0.0,16,True,1130,0.0
+371,Milos,Kerkez,12,Defender,57,21,0,a,,,1.8,16,True,1130,0.3157894736842105
+372,Andrew,Robertson,12,Defender,58,11,0,a,,,2.0,16,True,1130,0.3448275862068966
+373,Virgil,van Dijk,12,Defender,59,41,0,a,,,2.8,16,True,1130,0.47457627118644063
+374,Ibrahima,Konaté,12,Defender,54,39,0,a,,100.0,3.6,16,True,1130,0.6666666666666666
+375,Conor,Bradley,12,Defender,50,15,0,a,,100.0,2.6,16,True,1130,0.52
+376,Joe,Gomez,12,Defender,49,4,0,a,,100.0,0.2,16,True,1130,0.04081632653061224
+378,Amara,Nallo,12,Defender,38,0,0,a,,100.0,0.0,16,True,1130,0.0
+379,Rhys,Williams,12,Defender,38,0,0,a,,,0.0,16,True,1130,0.0
+380,Calvin,Ramsay,12,Defender,38,0,0,a,,,0.0,16,True,1130,0.0
+381,Mohamed,Salah,12,Midfielder,142,54,0,a,,,4.4,16,True,1130,0.3098591549295775
+382,Florian,Wirtz,12,Midfielder,80,19,0,a,,,1.4,16,True,1130,0.175
+384,Cody,Gakpo,12,Midfielder,75,46,-1,a,,,4.0,16,True,1130,0.5333333333333333
+385,Federico,Chiesa,12,Midfielder,64,20,0,a,,100.0,2.0,16,True,1130,0.3125
+386,Alexis,Mac Allister,12,Midfielder,63,25,0,a,,100.0,2.6,16,True,1130,0.41269841269841273
+387,Dominik,Szoboszlai,12,Midfielder,66,44,0,a,,,4.4,16,True,1130,0.6666666666666667
+388,Curtis,Jones,12,Midfielder,54,13,0,a,,100.0,1.0,16,True,1130,0.18518518518518517
+390,Ryan,Gravenberch,12,Midfielder,56,52,0,a,,100.0,4.6,16,True,1130,0.8214285714285714
+392,Endo,Wataru,12,Midfielder,49,6,0,a,,100.0,0.2,16,True,1130,0.04081632653061224
+396,Trey,Nyoni,12,Midfielder,43,0,0,a,,,0.0,16,True,1130,0.0
+499,Alexander,Isak,12,Forward,104,10,0,a,,100.0,1.8,16,True,1130,0.17307692307692307
+661,Hugo,Ekitiké,12,Forward,86,39,0,a,,100.0,1.2,16,True,1130,0.13953488372093023
+686,Rio,Ngumoha,12,Midfielder,45,9,0,a,,,0.4,16,True,1130,0.08888888888888889
+746,Kieran,Morrison,12,Midfielder,45,0,0,a,,,0.0,16,True,1130,0.0
+182,James,Trafford,13,Goalkeeper,46,11,-1,a,,,0.0,15,False,1160,0.0
+400,Stefan,Ortega Moreno,13,Goalkeeper,48,0,0,a,,,0.0,15,False,1160,0.0
+401,Marcus,Bettinelli,13,Goalkeeper,40,0,0,a,,100.0,0.0,15,False,1160,0.0
+402,Rayan,Aït-Nouri,13,Defender,57,11,-1,a,,100.0,0.2,15,False,1160,0.03508771929824561
+403,Joško,Gvardiol,13,Defender,58,34,0,a,,100.0,3.6,15,False,1160,0.6206896551724138
+405,Nathan,Aké,13,Defender,53,10,0,a,,,1.4,15,False,1160,0.2641509433962264
+406,Abdukodir,Khusanov,13,Defender,54,11,0,a,,100.0,0.0,15,False,1160,0.0
+407,Matheus,Nunes,13,Defender,53,45,0,a,,,5.6,15,False,1160,1.0566037735849056
+408,Rúben,dos Santos Gato Alves Dias,13,Defender,55,45,0,a,,,4.6,15,False,1160,0.8363636363636363
+409,John,Stones,13,Defender,54,11,-1,a,,100.0,0.4,15,False,1160,0.07407407407407407
+410,Rico,Lewis,13,Defender,48,15,0,a,,100.0,0.4,15,False,1160,0.08333333333333334
+411,Nico,O'Reilly,13,Defender,50,51,1,a,,100.0,5.4,15,False,1160,1.08
+413,Omar,Marmoush,13,Midfielder,83,12,0,a,,100.0,0.4,15,False,1160,0.048192771084337345
+414,Phil,Foden,13,Midfielder,80,31,0,a,,100.0,2.4,15,False,1160,0.3
+415,Sávio,Moreira de Oliveira,13,Midfielder,69,16,0,a,,100.0,2.6,15,False,1160,0.37681159420289856
+416,Bernardo,Mota Veiga de Carvalho e Silva,13,Midfielder,63,25,0,a,,,1.4,15,False,1160,0.2222222222222222
+417,Rayan,Cherki,13,Midfielder,63,20,0,a,,100.0,2.4,15,False,1160,0.38095238095238093
+418,Jérémy,Doku,13,Midfielder,64,44,0,a,,,3.0,15,False,1160,0.46875
+423,Nico,González Iglesias,13,Midfielder,59,28,0,a,,100.0,2.8,15,False,1160,0.47457627118644063
+424,Oscar,Bobb,13,Midfielder,53,18,0,a,,,1.4,15,False,1160,0.2641509433962264
+427,Tijjani,Reijnders,13,Midfielder,55,34,0,a,,,1.6,15,False,1160,0.29090909090909095
+429,Kalvin,Phillips,13,Midfielder,48,0,0,a,,,0.0,15,False,1160,0.0
+430,Erling,Haaland,13,Forward,149,102,1,a,,100.0,10.4,15,False,1160,0.697986577181208
+736,Gianluigi,Donnarumma,13,Goalkeeper,57,31,0,a,,,3.6,15,False,1160,0.631578947368421
+739,Divine,Mukasa,13,Midfielder,45,0,0,a,,,0.0,15,False,1160,0.0
+740,Stephen,Mfuni,13,Defender,40,0,0,a,,,0.0,15,False,1160,0.0
+742,Ryan,McAidoo,13,Midfielder,45,0,0,a,,,0.0,15,False,1160,0.0
+119,Bryan,Mbeumo,14,Midfielder,85,60,1,a,,,6.8,9,True,1130,0.7999999999999999
+431,Altay,Bayındır,14,Goalkeeper,48,11,0,a,,,0.4,9,True,1130,0.08333333333333334
+434,Tom,Heaton,14,Goalkeeper,39,0,0,a,,,0.0,9,True,1130,0.0
+435,Dermot,Mee,14,Goalkeeper,39,0,0,a,,,0.0,9,True,1130,0.0
+436,Matthijs,de Ligt,14,Defender,50,39,0,a,,,3.0,9,True,1130,0.6
+438,Noussair,Mazraoui,14,Defender,49,10,0,a,,100.0,0.0,9,True,1130,0.0
+439,Diego,León Blanco,14,Defender,42,0,-1,a,,,0.0,9,True,1130,0.0
+440,Diogo,Dalot Teixeira,14,Defender,44,22,0,a,,100.0,3.2,9,True,1130,0.7272727272727273
+441,Patrick,Dorgu,14,Defender,42,16,-1,a,,,0.4,9,True,1130,0.09523809523809523
+443,Luke,Shaw,14,Defender,45,28,0,a,,,3.8,9,True,1130,0.8444444444444444
+444,Leny,Yoro,14,Defender,44,23,0,a,,,2.0,9,True,1130,0.45454545454545453
+446,Tyler,Fredricson,14,Defender,38,0,-1,a,,,0.0,9,True,1130,0.0
+447,Ayden,Heaven,14,Defender,38,4,0,a,,100.0,0.6,9,True,1130,0.15789473684210525
+448,Tyrell,Malacia,14,Defender,38,0,-1,a,,,0.0,9,True,1130,0.0
+449,Bruno,Borges Fernandes,14,Midfielder,89,50,0,a,,,3.8,9,True,1130,0.42696629213483145
+450,Matheus,Santos Carneiro da Cunha,14,Midfielder,79,26,0,a,,100.0,3.4,9,True,1130,0.430379746835443
+452,Amad,Diallo,14,Midfielder,63,37,0,a,,100.0,3.6,9,True,1130,0.5714285714285715
+455,Mason,Mount,14,Midfielder,59,22,0,a,,100.0,2.8,9,True,1130,0.47457627118644063
+457,Carlos Henrique,Casimiro,14,Midfielder,55,47,0,a,,100.0,6.2,9,True,1130,1.1272727272727272
+459,Manuel,Ugarte Ribeiro,14,Midfielder,48,13,0,a,,,1.0,9,True,1130,0.20833333333333334
+461,Jayce,Fitzgerald,14,Midfielder,44,0,0,a,,,0.0,9,True,1130,0.0
+462,Jack,Fletcher,14,Midfielder,43,0,-1,a,,,0.0,9,True,1130,0.0
+463,Sékou,Koné,14,Midfielder,44,0,0,a,,,0.0,9,True,1130,0.0
+466,Joshua,Zirkzee,14,Forward,58,4,0,a,,100.0,0.4,9,True,1130,0.06896551724137931
+467,Chido,Obi,14,Forward,43,0,0,a,,,0.0,9,True,1130,0.0
+733,Senne,Lammens,14,Goalkeeper,50,16,0,a,,,3.0,9,True,1130,0.6
+52,Jacob,Ramsey,15,Midfielder,53,5,0,a,,100.0,0.2,13,True,1305,0.03773584905660378
+469,Nick,Pope,15,Goalkeeper,52,52,0,a,,,3.4,13,True,1305,0.6538461538461539
+471,Mark,Gillespie,15,Goalkeeper,39,0,-1,a,,,0.0,13,True,1305,0.0
+473,Lewis,Hall,15,Defender,52,9,0,a,,100.0,0.0,13,True,1305,0.0
+474,Fabian,Schär,15,Defender,54,25,0,a,,100.0,0.4,13,True,1305,0.07407407407407407
+475,Sven,Botman,15,Defender,49,31,0,a,,,2.2,13,True,1305,0.4489795918367347
+478,Kieran,Trippier,15,Defender,50,30,0,a,,100.0,1.8,13,True,1305,0.36
+479,Emil,Krafth,15,Defender,43,0,0,a,,,0.0,13,True,1305,0.0
+480,Jamaal,Lascelles,15,Defender,43,1,0,a,,,0.0,13,True,1305,0.0
+481,Alex,Murphy,15,Defender,39,0,0,a,,,0.0,13,True,1305,0.0
+483,Miodrag,Pivaš,15,Defender,39,0,0,a,,,0.0,13,True,1305,0.0
+486,Anthony,Elanga,15,Midfielder,67,16,0,a,,,1.4,13,True,1305,0.208955223880597
+487,Harvey,Barnes,15,Midfielder,63,24,0,a,,,1.0,13,True,1305,0.15873015873015872
+488,Bruno,Guimarães Rodriguez Moura,15,Midfielder,66,50,0,a,,,6.4,13,True,1305,0.9696969696969698
+489,Jacob,Murphy,15,Midfielder,61,36,0,a,,,4.2,13,True,1305,0.6885245901639345
+491,Sandro,Tonali,15,Midfielder,54,32,0,a,,100.0,2.8,13,True,1305,0.5185185185185185
+494,Joe,Willock,15,Midfielder,50,5,0,a,,100.0,0.0,13,True,1305,0.0
+497,Lewis,Miley,15,Midfielder,44,14,0,a,,100.0,1.4,13,True,1305,0.3181818181818181
+501,Sean,Neave,15,Forward,44,0,0,a,,,0.0,13,True,1305,0.0
+674,Aaron,Ramsdale,15,Goalkeeper,48,0,0,a,,,0.0,13,True,1305,0.0
+684,Malick,Thiaw,15,Defender,49,26,0,a,,,3.0,13,True,1305,0.6122448979591836
+689,Seung-Soo,Park,15,Midfielder,44,0,0,a,,,0.0,13,True,1305,0.0
+714,Nick,Woltemade,15,Forward,74,40,-1,a,,,4.8,13,True,1305,0.6486486486486486
+426,James,McAtee,16,Midfielder,51,4,0,a,,,0.2,12,False,1230,0.03921568627450981
+502,Matz,Sels,16,Goalkeeper,48,23,0,a,,,2.2,12,False,1230,0.45833333333333337
+505,Nikola,Milenković,16,Defender,52,19,0,a,,,1.4,12,False,1230,0.2692307692307692
+506,Murillo,Costa dos Santos,16,Defender,53,13,0,a,,100.0,1.0,12,False,1230,0.18867924528301888
+508,Neco,Williams,16,Defender,47,20,0,a,,,0.8,12,False,1230,0.1702127659574468
+510,Jair,Paula da Cunha Filho,16,Defender,43,3,0,a,,,0.6,12,False,1230,0.13953488372093023
+511,Felipe,Rodrigues da Silva,16,Defender,43,8,-1,a,,,1.0,12,False,1230,0.23255813953488372
+513,Zach,Abbott,16,Defender,39,0,0,a,,,0.0,12,False,1230,0.0
+514,Willy,Boly,16,Defender,39,0,0,a,,,0.0,12,False,1230,0.0
+515,Morgan,Gibbs-White,16,Midfielder,73,40,0,a,,,3.4,12,False,1230,0.4657534246575342
+517,Elliot,Anderson,16,Midfielder,53,41,0,a,,,2.8,12,False,1230,0.5283018867924528
+519,Nicolás,Domínguez,16,Midfielder,50,2,0,a,,100.0,0.2,12,False,1230,0.04
+521,Ibrahim,Sangaré,16,Midfielder,49,18,0,a,,,0.4,12,False,1230,0.08163265306122448
+522,Ryan,Yates,16,Midfielder,47,11,0,a,,,1.4,12,False,1230,0.2978723404255319
+526,Igor Jesus,Maciel da Cruz,16,Forward,58,14,0,a,,,1.8,12,False,1230,0.3103448275862069
+669,Dan,Ndoye,16,Midfielder,57,32,0,a,,,1.2,12,False,1230,0.21052631578947367
+693,Omari,Hutchinson,16,Midfielder,54,13,0,a,,,0.6,12,False,1230,0.1111111111111111
+696,Arnaud,Kalimuendo,16,Forward,60,6,0,a,,,0.4,12,False,1230,0.06666666666666667
+715,John Victor,Maciel Furtado,16,Goalkeeper,40,0,0,a,,,0.0,12,False,1230,0.0
+716,Nicolò,Savona,16,Defender,45,12,0,a,,,2.0,12,False,1230,0.4444444444444444
+528,Anthony,Patterson,17,Goalkeeper,43,0,0,a,,,0.0,10,False,1090,0.0
+529,Simon,Moore,17,Goalkeeper,39,0,0,a,,,0.0,10,False,1090,0.0
+530,Blondy,Nna Noukeu,17,Goalkeeper,39,0,0,a,,,0.0,10,False,1090,0.0
+531,Daniel,Ballard,17,Defender,46,49,0,a,,100.0,4.0,10,False,1090,0.8695652173913044
+532,Trai,Hume,17,Defender,45,41,0,a,,,4.2,10,False,1090,0.9333333333333333
+534,Joe,Anderson,17,Defender,39,0,0,a,,,0.0,10,False,1090,0.0
+538,Zak,Johnson,17,Defender,39,0,0,a,,,0.0,10,False,1090,0.0
+539,Luke,O'Nien,17,Defender,40,0,0,a,,100.0,0.0,10,False,1090,0.0
+540,Timothée,Pembélé,17,Defender,39,0,0,a,,,0.0,10,False,1090,0.0
+541,Reinildo,Mandava,17,Defender,40,18,0,a,,100.0,0.8,10,False,1090,0.2
+543,Simon,Adingra,17,Midfielder,51,14,0,a,,,0.4,10,False,1090,0.07843137254901962
+547,Enzo,Le Fée,17,Midfielder,49,34,0,a,,100.0,3.4,10,False,1090,0.693877551020408
+549,Dan,Neil,17,Midfielder,48,2,0,a,,,0.2,10,False,1090,0.04166666666666667
+550,Ian,Poveda-Ocampo,17,Midfielder,48,0,0,a,,,0.0,10,False,1090,0.0
+551,Chris,Rigg,17,Midfielder,48,8,0,a,,,1.0,10,False,1090,0.20833333333333334
+552,Noah,Sadiki,17,Midfielder,50,26,0,a,,100.0,2.2,10,False,1090,0.44000000000000006
+553,Chemsdine,Talbi,17,Midfielder,50,34,0,a,,,3.4,10,False,1090,0.6799999999999999
+554,Abdoullah,Ba,17,Midfielder,43,0,0,a,,,0.0,10,False,1090,0.0
+557,Harrison,Jones,17,Midfielder,44,0,0,a,,,0.0,10,False,1090,0.0
+558,Jay,Matete,17,Midfielder,44,0,0,a,,,0.0,10,False,1090,0.0
+560,Wilson,Isidor,17,Forward,56,41,0,a,,,2.8,10,False,1090,0.5
+561,Eliezer,Mayenda Dossou,17,Forward,54,16,0,a,,,0.4,10,False,1090,0.07407407407407407
+562,Ahmed,Abdullahi,17,Forward,43,0,0,a,,,0.0,10,False,1090,0.0
+668,Granit,Xhaka,17,Midfielder,52,52,1,a,,,5.8,10,False,1090,1.1153846153846154
+670,Robin,Roefs,17,Goalkeeper,47,56,0,a,,,5.0,10,False,1090,1.0638297872340425
+678,Arthur,Masuaku,17,Defender,39,1,0,a,,100.0,0.0,10,False,1090,0.0
+683,Omar,Alderete,17,Defender,41,45,0,a,,100.0,4.6,10,False,1090,1.1219512195121952
+694,Nordi,Mukiele,17,Defender,42,51,0,a,,,5.8,10,False,1090,1.380952380952381
+724,Lutsharel,Geertruida,17,Defender,45,10,0,a,,,1.4,10,False,1090,0.3111111111111111
+730,Brian,Brobbey,17,Forward,55,13,0,a,,,1.4,10,False,1090,0.2545454545454545
+735,Bertrand,Traoré,17,Midfielder,55,13,0,a,,,2.2,10,False,1090,0.4
+565,Guglielmo,Vicario,18,Goalkeeper,50,47,-1,a,,,3.2,1,False,1300,0.64
+566,Brandon,Austin,18,Goalkeeper,39,0,0,a,,,0.0,1,False,1300,0.0
+567,Antonín,Kinský,18,Goalkeeper,39,0,0,a,,,0.0,1,False,1300,0.0
+568,Pedro,Porro Sauceda,18,Defender,55,46,0,a,,,4.4,1,False,1300,0.8
+569,Cristian,Romero,18,Defender,50,34,0,a,,100.0,0.8,1,False,1300,0.16
+570,Kevin,Danso,18,Defender,43,12,0,a,,,2.0,1,False,1300,0.46511627906976744
+573,Djed,Spence,18,Defender,45,31,0,a,,,2.2,1,False,1300,0.48888888888888893
+574,Destiny,Udogie,18,Defender,44,12,0,a,,100.0,1.0,1,False,1300,0.22727272727272727
+575,Micky,van de Ven,18,Defender,48,58,0,a,,,5.8,1,False,1300,1.2083333333333333
+580,Brennan,Johnson,18,Midfielder,67,28,0,a,,,1.4,1,False,1300,0.208955223880597
+584,Mathys,Tel,18,Midfielder,63,23,0,a,,,2.4,1,False,1300,0.38095238095238093
+585,Rodrigo,Bentancur,18,Midfielder,53,35,0,a,,,5.2,1,False,1300,0.9811320754716982
+588,Wilson,Odobert,18,Midfielder,53,19,0,a,,100.0,1.2,1,False,1300,0.22641509433962265
+595,Callum,Olusesi,18,Midfielder,44,0,0,a,,,0.0,1,False,1300,0.0
+597,Richarlison,de Andrade,18,Forward,64,44,0,a,,,1.8,1,False,1300,0.28125
+599,Dane,Scarlett,18,Forward,43,0,0,a,,,0.0,1,False,1300,0.0
+673,João Maria,Lobo Alves Palhares Costa Palhinha Gonçalves,18,Midfielder,55,51,0,a,,,5.6,1,False,1300,1.018181818181818
+717,Xavi,Simons,18,Midfielder,67,20,0,a,,,2.2,1,False,1300,0.3283582089552239
+745,Jun'ai,Byfield,18,Defender,40,0,0,a,,,0.0,1,False,1300,0.0
+750,James,Rowswell,18,Defender,40,0,0,a,,,,1,False,1300,0.0
+751,Yusuf,Akhamrich,18,Midfielder,45,0,0,a,,,,1,False,1300,0.0
+149,Igor Julio,dos Santos de Paulo,19,Defender,45,3,0,a,,100.0,0.4,4,False,1150,0.08888888888888889
+600,Alphonse,Areola,19,Goalkeeper,43,15,0,a,,,2.4,4,False,1150,0.5581395348837209
+602,Krisztián,Hegyi,19,Goalkeeper,39,0,0,a,,,0.0,4,False,1150,0.0
+603,El Hadji Malick,Diouf,19,Defender,43,31,0,a,,,2.4,4,False,1150,0.5581395348837209
+605,Maximilian,Kilman,19,Defender,43,20,0,a,,,2.0,4,False,1150,0.46511627906976744
+609,Jean-Clair,Todibo,19,Defender,43,7,0,a,,,1.0,4,False,1150,0.23255813953488372
+610,Aaron,Wan-Bissaka,19,Defender,43,14,0,a,,100.0,2.0,4,False,1150,0.46511627906976744
+613,Tomáš,Souček,19,Midfielder,57,26,0,a,,100.0,2.0,4,False,1150,0.3508771929824561
+614,James,Ward-Prowse,19,Midfielder,56,11,-1,a,,,0.0,4,False,1150,0.0
+615,Crysencio,Summerville,19,Midfielder,55,23,0,a,,100.0,1.4,4,False,1150,0.2545454545454545
+618,Guido,Rodríguez,19,Midfielder,48,3,0,a,,,0.2,4,False,1150,0.04166666666666667
+619,Luis Guilherme,Lira dos Santos,19,Midfielder,49,3,0,a,,100.0,0.2,4,False,1150,0.04081632653061224
+621,Andy,Irving,19,Midfielder,44,8,0,a,,,1.0,4,False,1150,0.22727272727272727
+624,Jarrod,Bowen,19,Forward,77,46,0,a,,,4.0,4,False,1150,0.5194805194805194
+626,Callum,Marshall,19,Forward,44,2,0,a,,,0.4,4,False,1150,0.09090909090909091
+659,Kyle,Walker-Peters,19,Defender,43,21,0,a,,,1.0,4,False,1150,0.23255813953488372
+671,Callum,Wilson,19,Forward,58,22,0,a,,,0.8,4,False,1150,0.13793103448275862
+679,Mads,Hermansen,19,Goalkeeper,44,9,0,a,,,0.0,4,False,1150,0.0
+708,Mateus Gonçalo,Espanha Fernandes,19,Midfielder,55,28,0,a,,,4.0,4,False,1150,0.7272727272727273
+718,Soungoutou,Magassa,19,Midfielder,50,6,0,a,,,0.6,4,False,1150,0.12
+747,Ezra,Mayers,19,Defender,40,0,0,a,,,0.0,4,False,1150,0.0
+752,Airidas,Golambeckis,19,Defender,40,0,0,a,,,,4,False,1150,0.0
+627,Sam,Johnstone,20,Goalkeeper,45,15,0,a,,,2.0,8,True,1205,0.4444444444444444
+628,José,Malheiro de Sá,20,Goalkeeper,43,5,0,a,,,0.0,8,True,1205,0.0
+629,Daniel,Bentley,20,Goalkeeper,40,0,0,a,,,0.0,8,True,1205,0.0
+631,Emmanuel,Agbadou,20,Defender,43,11,0,a,,100.0,-0.2,8,True,1205,-0.04651162790697675
+633,Hugo,Bueno López,20,Defender,44,21,0,a,,100.0,2.6,8,True,1205,0.5909090909090908
+634,Yerson,Mosquera Valdelamar,20,Defender,43,1,0,a,,,-0.4,8,True,1205,-0.0930232558139535
+636,Santiago,Ignacio Bueno,20,Defender,44,25,0,a,,,4.0,8,True,1205,0.9090909090909091
+637,Toti,Gomes,20,Defender,43,6,0,a,,100.0,0.2,8,True,1205,0.04651162790697675
+638,Ki-Jana,Hoever,20,Defender,39,5,0,a,,100.0,0.6,8,True,1205,0.15384615384615385
+641,Alfie,Pond,20,Defender,39,0,0,a,,,0.0,8,True,1205,0.0
+642,Hwang,Hee-chan,20,Midfielder,57,16,-1,a,,100.0,0.6,8,True,1205,0.10526315789473684
+643,André,Trindade da Costa Neto,20,Midfielder,53,25,0,a,,100.0,3.0,8,True,1205,0.5660377358490566
+644,Jean-Ricner,Bellegarde,20,Midfielder,52,13,0,a,,100.0,1.0,8,True,1205,0.1923076923076923
+645,Fer,López González,20,Midfielder,52,7,0,a,,,0.2,8,True,1205,0.038461538461538464
+646,João Victor,Gomes da Silva,20,Midfielder,53,24,0,a,,,2.0,8,True,1205,0.37735849056603776
+648,Marshall,Munetsi,20,Midfielder,54,35,0,a,,,5.0,8,True,1205,0.9259259259259258
+650,Tawanda,Chirewa,20,Midfielder,44,0,0,a,,,0.0,8,True,1205,0.0
+651,Tom,Edozie,20,Midfielder,44,0,0,a,,,0.0,8,True,1205,0.0
+652,Enso,González Medina,20,Midfielder,44,0,0,a,,,0.0,8,True,1205,0.0
+654,Jørgen,Strand Larsen,20,Forward,63,21,0,a,,100.0,2.8,8,True,1205,0.4444444444444444
+658,Nathan,Fraser,20,Forward,43,0,-1,a,,,0.0,8,True,1205,0.0
+663,Jhon,Arias,20,Midfielder,51,19,0,a,,,2.6,8,True,1205,0.5098039215686275
+682,David,Møller Wolfe,20,Defender,43,8,-1,a,,,0.4,8,True,1205,0.0930232558139535
+695,Jackson,Tchatchoua,20,Defender,45,14,0,a,,,1.4,8,True,1205,0.3111111111111111
+709,Ladislav,Krejcí,20,Defender,45,17,0,a,,,1.6,8,True,1205,0.35555555555555557
+720,Tolu,Arokodare,20,Forward,55,9,0,a,,,1.0,8,True,1205,0.18181818181818182
+749,Mateus,Mané,20,Forward,45,1,0,a,,,,8,True,1205,0.0

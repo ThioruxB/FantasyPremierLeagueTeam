@@ -1,0 +1,101 @@
+(function () {
+  var snackStickyParams;
+  try {
+    snackStickyParams = new URLSearchParams(window.location.search);
+  } catch (e) {
+    // Fallback for older browsers
+    var snackStickyQuery = window.location.search.substring(1).split("&");
+    snackStickyParams = {
+      get: function (key) {
+        for (var i = 0; i < snackStickyQuery.length; i++) {
+          var pair = snackStickyQuery[i].split("=");
+          if (decodeURIComponent(pair[0]) === key) return decodeURIComponent(pair[1] || "");
+        }
+        return null;
+      },
+    };
+  }
+
+  if (snackStickyParams.get("snacktest") !== "true") return;
+
+  var snackStickyCssText = "\
+    .sticky-container {\
+        background: rgba(239, 239, 239, 0.5);\
+    }\
+    .sticky-button {\
+        left: 0px;\
+        border-radius: 0 5px 0 0;\
+        background: rgba(239, 239, 239, 0.5);\
+    }\
+  ";
+
+  var snackStickyStyleApplied = false;
+  var snackStickyRetryCount = 0;
+  var snackStickyMaxRetries = 60;
+
+  function snackStickyApplyStyles() {
+    var snackStickyDiv = document.getElementById("snack-sticky");
+    if (!snackStickyDiv) return false;
+
+    // Modern browsers with Shadow DOM + adoptedStyleSheets
+    if (snackStickyDiv.shadowRoot && typeof CSSStyleSheet !== "undefined" && "adoptedStyleSheets" in snackStickyDiv.shadowRoot) {
+      if (!snackStickyApplyStyles.sheet) {
+        var snackStickySheet = new CSSStyleSheet();
+        snackStickySheet.replaceSync(snackStickyCssText);
+        snackStickyApplyStyles.sheet = snackStickySheet;
+      }
+      var snackStickySheets = snackStickyDiv.shadowRoot.adoptedStyleSheets || [];
+      if (snackStickySheets.indexOf(snackStickyApplyStyles.sheet) === -1) {
+        snackStickyDiv.shadowRoot.adoptedStyleSheets = snackStickySheets.concat([snackStickyApplyStyles.sheet]);
+      }
+      return true;
+    } else {
+      var snackStickyStyleEl = snackStickyDiv.shadowRoot
+        ? snackStickyDiv.shadowRoot.querySelector("style[data-snack-sticky-style]")
+        : document.querySelector("#snack-sticky-style");
+
+      if (!snackStickyStyleEl) {
+        snackStickyStyleEl = document.createElement("style");
+        snackStickyStyleEl.setAttribute("data-snack-sticky-style", "true");
+        snackStickyStyleEl.textContent = snackStickyCssText;
+        if (snackStickyDiv.shadowRoot) {
+          snackStickyDiv.shadowRoot.appendChild(snackStickyStyleEl);
+        } else {
+          snackStickyStyleEl.id = "snack-sticky-style";
+          document.head.appendChild(snackStickyStyleEl);
+        }
+      }
+      return true;
+    }
+  }
+
+  function snackStickyTryApply() {
+    if (snackStickyStyleApplied) return;
+    snackStickyStyleApplied = snackStickyApplyStyles();
+
+    snackStickyRetryCount++;
+    if (!snackStickyStyleApplied && snackStickyRetryCount < snackStickyMaxRetries) {
+      setTimeout(snackStickyTryApply, 1000);
+    }
+  }
+
+  snackStickyTryApply();
+
+  window.googletag = window.googletag || {};
+  window.googletag.cmd = window.googletag.cmd || [];
+  window.googletag.cmd.push(function () {
+    if (!window.googletag.pubads) return;
+
+    window.googletag.pubads().addEventListener("slotRenderEnded", function (snackStickyEvent) {
+      var snackStickySlot = snackStickyEvent && snackStickyEvent.slot ? snackStickyEvent.slot : {};
+      var snackStickySlotId = "";
+      try {
+        if (snackStickySlot.getSlotElementId) snackStickySlotId = snackStickySlot.getSlotElementId();
+      } catch (e) {}
+
+      if (snackStickySlotId && snackStickySlotId.indexOf("desktop-sticky") !== -1) {
+        setTimeout(snackStickyTryApply, 150);
+      }
+    });
+  });
+})();

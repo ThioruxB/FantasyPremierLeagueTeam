@@ -1,0 +1,925 @@
+{
+    "fase1_top_valor": [
+        {
+            "Nombre": "Marcos",
+            "Apellido": "Senesi Barón",
+            "team_name": "Bournemouth",
+            "Posicion": "Defender",
+            "opponent_name": "Crystal Palace",
+            "is_home": false,
+            "Precio": 49,
+            "form": 8.4,
+            "difficulty": 1140,
+            "valor": 1.7142857142857142,
+            "tendencia": 0
+        },
+        {
+            "Nombre": "Omar",
+            "Apellido": "Alderete",
+            "team_name": "Sunderland",
+            "Posicion": "Defender",
+            "opponent_name": "Wolves",
+            "is_home": true,
+            "Precio": 41,
+            "form": 7.0,
+            "difficulty": 1125,
+            "valor": 1.707317073170732,
+            "tendencia": 0
+        },
+        {
+            "Nombre": "Marc",
+            "Apellido": "Guéhi",
+            "team_name": "Crystal Palace",
+            "Posicion": "Defender",
+            "opponent_name": "Bournemouth",
+            "is_home": true,
+            "Precio": 48,
+            "form": 7.4,
+            "difficulty": 1180,
+            "valor": 1.5416666666666667,
+            "tendencia": 0
+        },
+        {
+            "Nombre": "Robin",
+            "Apellido": "Roefs",
+            "team_name": "Sunderland",
+            "Posicion": "Goalkeeper",
+            "opponent_name": "Wolves",
+            "is_home": true,
+            "Precio": 46,
+            "form": 6.2,
+            "difficulty": 1125,
+            "valor": 1.347826086956522,
+            "tendencia": 0
+        },
+        {
+            "Nombre": "Jaidon",
+            "Apellido": "Anthony",
+            "team_name": "Burnley",
+            "Posicion": "Midfielder",
+            "opponent_name": "Leeds",
+            "is_home": true,
+            "Precio": 57,
+            "form": 7.6,
+            "difficulty": 1075,
+            "valor": 1.3333333333333333,
+            "tendencia": 0
+        },
+        {
+            "Nombre": "Michael",
+            "Apellido": "Keane",
+            "team_name": "Everton",
+            "Posicion": "Defender",
+            "opponent_name": "Man City",
+            "is_home": false,
+            "Precio": 45,
+            "form": 5.8,
+            "difficulty": 1275,
+            "valor": 1.2888888888888888,
+            "tendencia": 0
+        },
+        {
+            "Nombre": "Jurriën",
+            "Apellido": "Timber",
+            "team_name": "Arsenal",
+            "Posicion": "Defender",
+            "opponent_name": "Fulham",
+            "is_home": false,
+            "Precio": 59,
+            "form": 7.4,
+            "difficulty": 1125,
+            "valor": 1.2542372881355932,
+            "tendencia": 1
+        },
+        {
+            "Nombre": "Ryan",
+            "Apellido": "Gravenberch",
+            "team_name": "Liverpool",
+            "Posicion": "Midfielder",
+            "opponent_name": "Man Utd",
+            "is_home": true,
+            "Precio": 57,
+            "form": 7.0,
+            "difficulty": 1125,
+            "valor": 1.2280701754385963,
+            "tendencia": 1
+        },
+        {
+            "Nombre": "Adrien",
+            "Apellido": "Truffert",
+            "team_name": "Bournemouth",
+            "Posicion": "Defender",
+            "opponent_name": "Crystal Palace",
+            "is_home": false,
+            "Precio": 45,
+            "form": 5.4,
+            "difficulty": 1140,
+            "valor": 1.2000000000000002,
+            "tendencia": 0
+        },
+        {
+            "Nombre": "James",
+            "Apellido": "Garner",
+            "team_name": "Everton",
+            "Posicion": "Midfielder",
+            "opponent_name": "Man City",
+            "is_home": false,
+            "Precio": 50,
+            "form": 6.0,
+            "difficulty": 1275,
+            "valor": 1.2,
+            "tendencia": 0
+        },
+        {
+            "Nombre": "Nordi",
+            "Apellido": "Mukiele",
+            "team_name": "Sunderland",
+            "Posicion": "Defender",
+            "opponent_name": "Wolves",
+            "is_home": true,
+            "Precio": 40,
+            "form": 4.8,
+            "difficulty": 1125,
+            "valor": 1.2,
+            "tendencia": 0
+        },
+        {
+            "Nombre": "Trevoh",
+            "Apellido": "Chalobah",
+            "team_name": "Chelsea",
+            "Posicion": "Defender",
+            "opponent_name": "Nott'm Forest",
+            "is_home": false,
+            "Precio": 51,
+            "form": 5.8,
+            "difficulty": 1165,
+            "valor": 1.1372549019607845,
+            "tendencia": -1
+        },
+        {
+            "Nombre": "Joe",
+            "Apellido": "Rodon",
+            "team_name": "Leeds",
+            "Posicion": "Defender",
+            "opponent_name": "Burnley",
+            "is_home": false,
+            "Precio": 40,
+            "form": 4.4,
+            "difficulty": 1050,
+            "valor": 1.1,
+            "tendencia": 0
+        },
+        {
+            "Nombre": "Tino",
+            "Apellido": "Livramento",
+            "team_name": "Newcastle",
+            "Posicion": "Defender",
+            "opponent_name": "Brighton",
+            "is_home": false,
+            "Precio": 51,
+            "form": 5.6,
+            "difficulty": 1150,
+            "valor": 1.0980392156862746,
+            "tendencia": 0
+        },
+        {
+            "Nombre": "Josh",
+            "Apellido": "Cullen",
+            "team_name": "Burnley",
+            "Posicion": "Midfielder",
+            "opponent_name": "Leeds",
+            "is_home": true,
+            "Precio": 50,
+            "form": 5.4,
+            "difficulty": 1075,
+            "valor": 1.08,
+            "tendencia": 0
+        }
+    ],
+    "fase2_robust_team": [
+        {
+            "Jugador": [
+                "Thierno",
+                "Barry"
+            ],
+            "Selecciones": 64,
+            "Nombre": "Thierno",
+            "Apellido": "Barry",
+            "Frecuencia": 64.0,
+            "Posicion": "Forward",
+            "team_name": "Everton",
+            "Precio": 57
+        },
+        {
+            "Jugador": [
+                "Justin",
+                "Devenny"
+            ],
+            "Selecciones": 58,
+            "Nombre": "Justin",
+            "Apellido": "Devenny",
+            "Frecuencia": 57.99999999999999,
+            "Posicion": "Midfielder",
+            "team_name": "Crystal Palace",
+            "Precio": 45
+        },
+        {
+            "Jugador": [
+                "Tolu",
+                "Arokodare"
+            ],
+            "Selecciones": 57,
+            "Nombre": "Tolu",
+            "Apellido": "Arokodare",
+            "Frecuencia": 56.99999999999999,
+            "Posicion": "Forward",
+            "team_name": "Wolves",
+            "Precio": 55
+        },
+        {
+            "Jugador": [
+                "Sander",
+                "Berge"
+            ],
+            "Selecciones": 52,
+            "Nombre": "Sander",
+            "Apellido": "Berge",
+            "Frecuencia": 52.0,
+            "Posicion": "Midfielder",
+            "team_name": "Fulham",
+            "Precio": 49
+        },
+        {
+            "Jugador": [
+                "Bart",
+                "Verbruggen"
+            ],
+            "Selecciones": 49,
+            "Nombre": "Bart",
+            "Apellido": "Verbruggen",
+            "Frecuencia": 49.0,
+            "Posicion": "Goalkeeper",
+            "team_name": "Brighton",
+            "Precio": 44
+        },
+        {
+            "Jugador": [
+                "Lutsharel",
+                "Geertruida"
+            ],
+            "Selecciones": 39,
+            "Nombre": "Lutsharel",
+            "Apellido": "Geertruida",
+            "Frecuencia": 39.0,
+            "Posicion": "Defender",
+            "team_name": "Sunderland",
+            "Precio": 45
+        },
+        {
+            "Jugador": [
+                "Matz",
+                "Sels"
+            ],
+            "Selecciones": 36,
+            "Nombre": "Matz",
+            "Apellido": "Sels",
+            "Frecuencia": 36.0,
+            "Posicion": "Goalkeeper",
+            "team_name": "Nott'm Forest",
+            "Precio": 49
+        },
+        {
+            "Jugador": [
+                "Arnaud",
+                "Kalimuendo"
+            ],
+            "Selecciones": 29,
+            "Nombre": "Arnaud",
+            "Apellido": "Kalimuendo",
+            "Frecuencia": 28.999999999999996,
+            "Posicion": "Forward",
+            "team_name": "Nott'm Forest",
+            "Precio": 60
+        },
+        {
+            "Jugador": [
+                "Chris",
+                "Richards"
+            ],
+            "Selecciones": 27,
+            "Nombre": "Chris",
+            "Apellido": "Richards",
+            "Frecuencia": 27.0,
+            "Posicion": "Defender",
+            "team_name": "Crystal Palace",
+            "Precio": 45
+        },
+        {
+            "Jugador": [
+                "Quilindschy",
+                "Hartman"
+            ],
+            "Selecciones": 23,
+            "Nombre": "Quilindschy",
+            "Apellido": "Hartman",
+            "Frecuencia": 23.0,
+            "Posicion": "Defender",
+            "team_name": "Burnley",
+            "Precio": 40
+        },
+        {
+            "Jugador": [
+                "Granit",
+                "Xhaka"
+            ],
+            "Selecciones": 20,
+            "Nombre": "Granit",
+            "Apellido": "Xhaka",
+            "Frecuencia": 20.0,
+            "Posicion": "Midfielder",
+            "team_name": "Sunderland",
+            "Precio": 50
+        },
+        {
+            "Jugador": [
+                "Đorđe",
+                "Petrović"
+            ],
+            "Selecciones": 20,
+            "Nombre": "Đorđe",
+            "Apellido": "Petrović",
+            "Frecuencia": 20.0,
+            "Posicion": "Goalkeeper",
+            "team_name": "Bournemouth",
+            "Precio": 45
+        },
+        {
+            "Jugador": [
+                "Sandro",
+                "Tonali"
+            ],
+            "Selecciones": 19,
+            "Nombre": "Sandro",
+            "Apellido": "Tonali",
+            "Frecuencia": 19.0,
+            "Posicion": "Midfielder",
+            "team_name": "Newcastle",
+            "Precio": 54
+        },
+        {
+            "Jugador": [
+                "Noah",
+                "Sadiki"
+            ],
+            "Selecciones": 19,
+            "Nombre": "Noah",
+            "Apellido": "Sadiki",
+            "Frecuencia": 19.0,
+            "Posicion": "Midfielder",
+            "team_name": "Sunderland",
+            "Precio": 50
+        },
+        {
+            "Jugador": [
+                "Tino",
+                "Livramento"
+            ],
+            "Selecciones": 18,
+            "Nombre": "Tino",
+            "Apellido": "Livramento",
+            "Frecuencia": 18.0,
+            "Posicion": "Defender",
+            "team_name": "Newcastle",
+            "Precio": 51
+        }
+    ],
+    "fase3_top_xp": [
+        {
+            "Nombre": "Erling",
+            "Apellido": "Haaland",
+            "team_name": "Man City",
+            "Posicion": "Forward",
+            "opponent_name": "Everton",
+            "is_home": true,
+            "Precio": 145,
+            "form": 9.8,
+            "difficulty": 1115,
+            "valor": 0.6758620689655173,
+            "tendencia": 1,
+            "volatilidad": 4.546060565661952,
+            "rendimiento_ajustado": 0.148669833849234,
+            "xP": 7.31
+        },
+        {
+            "Nombre": "Jurriën",
+            "Apellido": "Timber",
+            "team_name": "Arsenal",
+            "Posicion": "Defender",
+            "opponent_name": "Fulham",
+            "is_home": false,
+            "Precio": 59,
+            "form": 7.4,
+            "difficulty": 1125,
+            "valor": 1.2542372881355932,
+            "tendencia": 1,
+            "volatilidad": 8.571825387640049,
+            "rendimiento_ajustado": 0.1463209096564324,
+            "xP": 5.8
+        },
+        {
+            "Nombre": "João Pedro",
+            "Apellido": "Junqueira de Jesus",
+            "team_name": "Chelsea",
+            "Posicion": "Forward",
+            "opponent_name": "Nott'm Forest",
+            "is_home": false,
+            "Precio": 77,
+            "form": 7.0,
+            "difficulty": 1165,
+            "valor": 0.9090909090909092,
+            "tendencia": 0,
+            "volatilidad": 5.061526214398936,
+            "rendimiento_ajustado": 0.1796080610043556,
+            "xP": 5.35
+        },
+        {
+            "Nombre": "Omar",
+            "Apellido": "Alderete",
+            "team_name": "Sunderland",
+            "Posicion": "Defender",
+            "opponent_name": "Wolves",
+            "is_home": true,
+            "Precio": 41,
+            "form": 7.0,
+            "difficulty": 1125,
+            "valor": 1.707317073170732,
+            "tendencia": 0,
+            "volatilidad": 5.798193478924933,
+            "rendimiento_ajustado": 0.2944567268023095,
+            "xP": 5.35
+        },
+        {
+            "Nombre": "Ryan",
+            "Apellido": "Gravenberch",
+            "team_name": "Liverpool",
+            "Posicion": "Midfielder",
+            "opponent_name": "Man Utd",
+            "is_home": true,
+            "Precio": 57,
+            "form": 7.0,
+            "difficulty": 1125,
+            "valor": 1.2280701754385963,
+            "tendencia": 1,
+            "volatilidad": 5.154748157905347,
+            "rendimiento_ajustado": 0.2382405770018505,
+            "xP": 5.32
+        },
+        {
+            "Nombre": "Enzo",
+            "Apellido": "Fernández",
+            "team_name": "Chelsea",
+            "Posicion": "Midfielder",
+            "opponent_name": "Nott'm Forest",
+            "is_home": false,
+            "Precio": 67,
+            "form": 7.2,
+            "difficulty": 1165,
+            "valor": 1.0746268656716418,
+            "tendencia": 0,
+            "volatilidad": 4.375255094603872,
+            "rendimiento_ajustado": 0.2456146767298231,
+            "xP": 5.26
+        },
+        {
+            "Nombre": "Trevoh",
+            "Apellido": "Chalobah",
+            "team_name": "Chelsea",
+            "Posicion": "Defender",
+            "opponent_name": "Nott'm Forest",
+            "is_home": false,
+            "Precio": 51,
+            "form": 5.8,
+            "difficulty": 1165,
+            "valor": 1.1372549019607845,
+            "tendencia": -1,
+            "volatilidad": 5.41602560309064,
+            "rendimiento_ajustado": 0.2099796022588617,
+            "xP": 5.08
+        },
+        {
+            "Nombre": "Moisés",
+            "Apellido": "Caicedo Corozo",
+            "team_name": "Chelsea",
+            "Posicion": "Midfielder",
+            "opponent_name": "Nott'm Forest",
+            "is_home": false,
+            "Precio": 57,
+            "form": 6.0,
+            "difficulty": 1165,
+            "valor": 1.0526315789473684,
+            "tendencia": 0,
+            "volatilidad": 3.644957377763735,
+            "rendimiento_ajustado": 0.2887911900888075,
+            "xP": 4.96
+        },
+        {
+            "Nombre": "Adrien",
+            "Apellido": "Truffert",
+            "team_name": "Bournemouth",
+            "Posicion": "Defender",
+            "opponent_name": "Crystal Palace",
+            "is_home": false,
+            "Precio": 45,
+            "form": 5.4,
+            "difficulty": 1140,
+            "valor": 1.2000000000000002,
+            "tendencia": 0,
+            "volatilidad": 3.101458950082625,
+            "rendimiento_ajustado": 0.3869146809013968,
+            "xP": 4.86
+        },
+        {
+            "Nombre": "Antoine",
+            "Apellido": "Semenyo",
+            "team_name": "Bournemouth",
+            "Posicion": "Midfielder",
+            "opponent_name": "Crystal Palace",
+            "is_home": false,
+            "Precio": 79,
+            "form": 6.6,
+            "difficulty": 1140,
+            "valor": 0.8354430379746834,
+            "tendencia": 1,
+            "volatilidad": 5.912053869204928,
+            "rendimiento_ajustado": 0.1413118108287867,
+            "xP": 4.7
+        },
+        {
+            "Nombre": "Gabriel",
+            "Apellido": "dos Santos Magalhães",
+            "team_name": "Arsenal",
+            "Posicion": "Defender",
+            "opponent_name": "Fulham",
+            "is_home": false,
+            "Precio": 63,
+            "form": 6.4,
+            "difficulty": 1125,
+            "valor": 1.015873015873016,
+            "tendencia": 1,
+            "volatilidad": 3.9880774697543058,
+            "rendimiento_ajustado": 0.2547275030581593,
+            "xP": 4.65
+        },
+        {
+            "Nombre": "Robin",
+            "Apellido": "Roefs",
+            "team_name": "Sunderland",
+            "Posicion": "Goalkeeper",
+            "opponent_name": "Wolves",
+            "is_home": true,
+            "Precio": 46,
+            "form": 6.2,
+            "difficulty": 1125,
+            "valor": 1.347826086956522,
+            "tendencia": 0,
+            "volatilidad": 4.017817460121496,
+            "rendimiento_ajustado": 0.3354622504218409,
+            "xP": 4.43
+        },
+        {
+            "Nombre": "Guglielmo",
+            "Apellido": "Vicario",
+            "team_name": "Spurs",
+            "Posicion": "Goalkeeper",
+            "opponent_name": "Aston Villa",
+            "is_home": true,
+            "Precio": 51,
+            "form": 4.6,
+            "difficulty": 1250,
+            "valor": 0.9019607843137256,
+            "tendencia": 0,
+            "volatilidad": 3.5118845842842465,
+            "rendimiento_ajustado": 0.2568309870859703,
+            "xP": 4.26
+        },
+        {
+            "Nombre": "Josh",
+            "Apellido": "Cullen",
+            "team_name": "Burnley",
+            "Posicion": "Midfielder",
+            "opponent_name": "Leeds",
+            "is_home": true,
+            "Precio": 50,
+            "form": 5.4,
+            "difficulty": 1075,
+            "valor": 1.08,
+            "tendencia": 0,
+            "volatilidad": 4.029651999626672,
+            "rendimiento_ajustado": 0.268013218039686,
+            "xP": 4.02
+        },
+        {
+            "Nombre": "Riccardo",
+            "Apellido": "Calafiori",
+            "team_name": "Arsenal",
+            "Posicion": "Defender",
+            "opponent_name": "Fulham",
+            "is_home": false,
+            "Precio": 57,
+            "form": 4.6,
+            "difficulty": 1125,
+            "valor": 0.8070175438596491,
+            "tendencia": 0,
+            "volatilidad": 5.0990195135927845,
+            "rendimiento_ajustado": 0.1582691616904643,
+            "xP": 4.01
+        }
+    ],
+    "fase4_ideal_team": [
+        {
+            "player_info": {
+                "Nombre": "Omar",
+                "Apellido": "Alderete",
+                "team_name": "Sunderland",
+                "Posicion": "Defender",
+                "opponent_name": "Wolves",
+                "is_home": true,
+                "Precio": 41,
+                "form": 7.0,
+                "difficulty": 1125,
+                "valor": 1.707317073170732,
+                "tendencia": 0,
+                "volatilidad": 5.798193478924933,
+                "rendimiento_ajustado": 0.2944567268023095,
+                "xP": 5.35
+            },
+            "explanation": "Omar Alderete (Defender) - xP: 5.35, Precio: 41.0. Se recomienda porque su predicción de puntos es excepcional (top 10% de los Defenders), llega en un gran estado de forma (7.0 pts/partido), ofrece una excelente relación calidad-precio y además cuenta con la ventaja de jugar en casa."
+        },
+        {
+            "player_info": {
+                "Nombre": "Robin",
+                "Apellido": "Roefs",
+                "team_name": "Sunderland",
+                "Posicion": "Goalkeeper",
+                "opponent_name": "Wolves",
+                "is_home": true,
+                "Precio": 46,
+                "form": 6.2,
+                "difficulty": 1125,
+                "valor": 1.347826086956522,
+                "tendencia": 0,
+                "volatilidad": 4.017817460121496,
+                "rendimiento_ajustado": 0.3354622504218409,
+                "xP": 4.43
+            },
+            "explanation": "Robin Roefs (Goalkeeper) - xP: 4.43, Precio: 46.0. Se recomienda porque su predicción de puntos es excepcional (top 10% de los Goalkeepers), llega en un gran estado de forma (6.2 pts/partido), ofrece una excelente relación calidad-precio y además cuenta con la ventaja de jugar en casa."
+        },
+        {
+            "player_info": {
+                "Nombre": "Jurriën",
+                "Apellido": "Timber",
+                "team_name": "Arsenal",
+                "Posicion": "Defender",
+                "opponent_name": "Fulham",
+                "is_home": false,
+                "Precio": 59,
+                "form": 7.4,
+                "difficulty": 1125,
+                "valor": 1.2542372881355932,
+                "tendencia": 1,
+                "volatilidad": 8.571825387640049,
+                "rendimiento_ajustado": 0.1463209096564324,
+                "xP": 5.8
+            },
+            "explanation": "Jurriën Timber (Defender) - xP: 5.80, Precio: 59.0. Se recomienda porque su predicción de puntos es excepcional (top 10% de los Defenders), llega en un gran estado de forma (7.4 pts/partido) y ofrece una excelente relación calidad-precio."
+        },
+        {
+            "player_info": {
+                "Nombre": "Ryan",
+                "Apellido": "Gravenberch",
+                "team_name": "Liverpool",
+                "Posicion": "Midfielder",
+                "opponent_name": "Man Utd",
+                "is_home": true,
+                "Precio": 57,
+                "form": 7.0,
+                "difficulty": 1125,
+                "valor": 1.2280701754385963,
+                "tendencia": 1,
+                "volatilidad": 5.154748157905347,
+                "rendimiento_ajustado": 0.2382405770018505,
+                "xP": 5.32
+            },
+            "explanation": "Ryan Gravenberch (Midfielder) - xP: 5.32, Precio: 57.0. Se recomienda porque su predicción de puntos es excepcional (top 10% de los Midfielders), llega en un gran estado de forma (7.0 pts/partido), ofrece una excelente relación calidad-precio y además cuenta con la ventaja de jugar en casa."
+        },
+        {
+            "player_info": {
+                "Nombre": "Adrien",
+                "Apellido": "Truffert",
+                "team_name": "Bournemouth",
+                "Posicion": "Defender",
+                "opponent_name": "Crystal Palace",
+                "is_home": false,
+                "Precio": 45,
+                "form": 5.4,
+                "difficulty": 1140,
+                "valor": 1.2000000000000002,
+                "tendencia": 0,
+                "volatilidad": 3.101458950082625,
+                "rendimiento_ajustado": 0.3869146809013968,
+                "xP": 4.86
+            },
+            "explanation": "Adrien Truffert (Defender) - xP: 4.86, Precio: 45.0. Se recomienda porque su predicción de puntos es excepcional (top 10% de los Defenders), llega en un gran estado de forma (5.4 pts/partido) y ofrece una excelente relación calidad-precio."
+        },
+        {
+            "player_info": {
+                "Nombre": "Trevoh",
+                "Apellido": "Chalobah",
+                "team_name": "Chelsea",
+                "Posicion": "Defender",
+                "opponent_name": "Nott'm Forest",
+                "is_home": false,
+                "Precio": 51,
+                "form": 5.8,
+                "difficulty": 1165,
+                "valor": 1.1372549019607845,
+                "tendencia": -1,
+                "volatilidad": 5.41602560309064,
+                "rendimiento_ajustado": 0.2099796022588617,
+                "xP": 5.08
+            },
+            "explanation": "Trevoh Chalobah (Defender) - xP: 5.08, Precio: 51.0. Se recomienda porque su predicción de puntos es excepcional (top 10% de los Defenders), llega en un gran estado de forma (5.8 pts/partido) y ofrece una excelente relación calidad-precio."
+        },
+        {
+            "player_info": {
+                "Nombre": "Josh",
+                "Apellido": "Cullen",
+                "team_name": "Burnley",
+                "Posicion": "Midfielder",
+                "opponent_name": "Leeds",
+                "is_home": true,
+                "Precio": 50,
+                "form": 5.4,
+                "difficulty": 1075,
+                "valor": 1.08,
+                "tendencia": 0,
+                "volatilidad": 4.029651999626672,
+                "rendimiento_ajustado": 0.268013218039686,
+                "xP": 4.02
+            },
+            "explanation": "Josh Cullen (Midfielder) - xP: 4.02, Precio: 50.0. Se recomienda porque su predicción de puntos es excepcional (top 10% de los Midfielders), llega en un gran estado de forma (5.4 pts/partido), su próximo partido tiene una dificultad muy baja, ofrece una excelente relación calidad-precio y además cuenta con la ventaja de jugar en casa."
+        },
+        {
+            "player_info": {
+                "Nombre": "Enzo",
+                "Apellido": "Fernández",
+                "team_name": "Chelsea",
+                "Posicion": "Midfielder",
+                "opponent_name": "Nott'm Forest",
+                "is_home": false,
+                "Precio": 67,
+                "form": 7.2,
+                "difficulty": 1165,
+                "valor": 1.0746268656716418,
+                "tendencia": 0,
+                "volatilidad": 4.375255094603872,
+                "rendimiento_ajustado": 0.2456146767298231,
+                "xP": 5.26
+            },
+            "explanation": "Enzo Fernández (Midfielder) - xP: 5.26, Precio: 67.0. Se recomienda porque su predicción de puntos es excepcional (top 10% de los Midfielders), llega en un gran estado de forma (7.2 pts/partido) y ofrece una excelente relación calidad-precio."
+        },
+        {
+            "player_info": {
+                "Nombre": "João Maria",
+                "Apellido": "Lobo Alves Palhares Costa Palhinha Gonçalves",
+                "team_name": "Spurs",
+                "Posicion": "Midfielder",
+                "opponent_name": "Aston Villa",
+                "is_home": true,
+                "Precio": 55,
+                "form": 5.6,
+                "difficulty": 1250,
+                "valor": 1.018181818181818,
+                "tendencia": 0,
+                "volatilidad": 4.111540089159037,
+                "rendimiento_ajustado": 0.2476400074187466,
+                "xP": 3.92
+            },
+            "explanation": "João Maria Lobo Alves Palhares Costa Palhinha Gonçalves (Midfielder) - xP: 3.92, Precio: 55.0. Se recomienda porque su predicción de puntos es excepcional (top 10% de los Midfielders), llega en un gran estado de forma (5.6 pts/partido), ofrece una excelente relación calidad-precio y además cuenta con la ventaja de jugar en casa."
+        },
+        {
+            "player_info": {
+                "Nombre": "Gabriel",
+                "Apellido": "dos Santos Magalhães",
+                "team_name": "Arsenal",
+                "Posicion": "Defender",
+                "opponent_name": "Fulham",
+                "is_home": false,
+                "Precio": 63,
+                "form": 6.4,
+                "difficulty": 1125,
+                "valor": 1.015873015873016,
+                "tendencia": 1,
+                "volatilidad": 3.9880774697543058,
+                "rendimiento_ajustado": 0.2547275030581593,
+                "xP": 4.65
+            },
+            "explanation": "Gabriel dos Santos Magalhães (Defender) - xP: 4.65, Precio: 63.0. Se recomienda porque su predicción de puntos es excepcional (top 10% de los Defenders), llega en un gran estado de forma (6.4 pts/partido) y ofrece una excelente relación calidad-precio."
+        },
+        {
+            "player_info": {
+                "Nombre": "João Pedro",
+                "Apellido": "Junqueira de Jesus",
+                "team_name": "Chelsea",
+                "Posicion": "Forward",
+                "opponent_name": "Nott'm Forest",
+                "is_home": false,
+                "Precio": 77,
+                "form": 7.0,
+                "difficulty": 1165,
+                "valor": 0.9090909090909092,
+                "tendencia": 0,
+                "volatilidad": 5.061526214398936,
+                "rendimiento_ajustado": 0.1796080610043556,
+                "xP": 5.35
+            },
+            "explanation": "João Pedro Junqueira de Jesus (Forward) - xP: 5.35, Precio: 77.0. Se recomienda porque su predicción de puntos es excepcional (top 10% de los Forwards), llega en un gran estado de forma (7.0 pts/partido) y ofrece una excelente relación calidad-precio."
+        },
+        {
+            "player_info": {
+                "Nombre": "Guglielmo",
+                "Apellido": "Vicario",
+                "team_name": "Spurs",
+                "Posicion": "Goalkeeper",
+                "opponent_name": "Aston Villa",
+                "is_home": true,
+                "Precio": 51,
+                "form": 4.6,
+                "difficulty": 1250,
+                "valor": 0.9019607843137256,
+                "tendencia": 0,
+                "volatilidad": 3.5118845842842465,
+                "rendimiento_ajustado": 0.2568309870859703,
+                "xP": 4.26
+            },
+            "explanation": "Guglielmo Vicario (Goalkeeper) - xP: 4.26, Precio: 51.0. Se recomienda porque su predicción de puntos es excepcional (top 10% de los Goalkeepers), llega en un gran estado de forma (4.6 pts/partido), ofrece una excelente relación calidad-precio y además cuenta con la ventaja de jugar en casa."
+        },
+        {
+            "player_info": {
+                "Nombre": "Antoine",
+                "Apellido": "Semenyo",
+                "team_name": "Bournemouth",
+                "Posicion": "Midfielder",
+                "opponent_name": "Crystal Palace",
+                "is_home": false,
+                "Precio": 79,
+                "form": 6.6,
+                "difficulty": 1140,
+                "valor": 0.8354430379746834,
+                "tendencia": 1,
+                "volatilidad": 5.912053869204928,
+                "rendimiento_ajustado": 0.1413118108287867,
+                "xP": 4.7
+            },
+            "explanation": "Antoine Semenyo (Midfielder) - xP: 4.70, Precio: 79.0. Se recomienda porque su predicción de puntos es excepcional (top 10% de los Midfielders), llega en un gran estado de forma (6.6 pts/partido) y ofrece una excelente relación calidad-precio."
+        },
+        {
+            "player_info": {
+                "Nombre": "Erling",
+                "Apellido": "Haaland",
+                "team_name": "Man City",
+                "Posicion": "Forward",
+                "opponent_name": "Everton",
+                "is_home": true,
+                "Precio": 145,
+                "form": 9.8,
+                "difficulty": 1115,
+                "valor": 0.6758620689655173,
+                "tendencia": 1,
+                "volatilidad": 4.546060565661952,
+                "rendimiento_ajustado": 0.148669833849234,
+                "xP": 7.31
+            },
+            "explanation": "Erling Haaland (Forward) - xP: 7.31, Precio: 145.0. Se recomienda porque su predicción de puntos es excepcional (top 10% de los Forwards), llega en un gran estado de forma (9.8 pts/partido), su próximo partido tiene una dificultad muy baja, ofrece una excelente relación calidad-precio y además cuenta con la ventaja de jugar en casa."
+        },
+        {
+            "player_info": {
+                "Nombre": "Viktor",
+                "Apellido": "Gyökeres",
+                "team_name": "Arsenal",
+                "Posicion": "Forward",
+                "opponent_name": "Fulham",
+                "is_home": false,
+                "Precio": 91,
+                "form": 4.6,
+                "difficulty": 1125,
+                "valor": 0.5054945054945055,
+                "tendencia": 1,
+                "volatilidad": 4.029651999626672,
+                "rendimiento_ajustado": 0.1254437121471871,
+                "xP": 4.0
+            },
+            "explanation": "Viktor Gyökeres (Forward) - xP: 4.00, Precio: 91.0. Se recomienda porque su predicción de puntos es excepcional (top 10% de los Forwards), llega en un gran estado de forma (4.6 pts/partido) y ofrece una excelente relación calidad-precio."
+        }
+    ]
+}

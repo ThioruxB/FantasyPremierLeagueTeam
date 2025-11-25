@@ -1,0 +1,15 @@
+pandas
+numpy
+SQLAlchemy
+psycopg2-binary
+scikit-learn
+pulp
+thefuzz
+requests
+<<<<<<< HEAD
+matplotlib
+seaborn
+beautifulsoup4
+=======
+soccerdata
+>>>>>>> 28b92f7 (Actualización del proyecto)

@@ -1,0 +1,26 @@
+{
+  "name": "conectpremier",
+  "version": "1.0.0",
+  "description": "<table>\r   <tr>\r     <td align=\"center\"><b>Dashboard Principal</b></td>\r     <td align=\"center\"><b>Detalle de Jugadores</b></td>\r   </tr>\r   <tr>\r     <td><img src=\"img/demos1.png\" alt=\"Demo 1\" width=\"420\"></td>\r     <td><img src=\"img/demos2.png\" alt=\"Demo 2\" width=\"420\"></td>\r   </tr>\r </table>",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThioruxB/FPLModel.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThioruxB/FPLModel/issues"
+  },
+  "homepage": "https://github.com/ThioruxB/FPLModel#readme",
+  "devDependencies": {
+    "playwright": "^1.56.1"
+  }
+}

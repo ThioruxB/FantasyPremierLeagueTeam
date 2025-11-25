@@ -1,0 +1,21 @@
+# Archivos de cache de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Directorios de entornos virtuales
+.env
+.venv
+env/
+venv/
+
+# Archivos de datos generados por el pipeline
+# No incluimos los datos generados en el repo, ya que el pipeline los crea.
+data/*.csv
+
+# Archivos de salida
+outputs/
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db

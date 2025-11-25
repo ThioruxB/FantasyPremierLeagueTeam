@@ -1,0 +1,16 @@
+﻿Nombre,Apellido,team_name,Posicion,opponent_name,is_home,Precio,form,difficulty,valor,tendencia,volatilidad,rendimiento_ajustado,xP
+Jurriën,Timber,Arsenal,Defender,Fulham,False,59,7.4,1125,1.2542372881355932,1,8.571825387640049,0.1463209096564324,5.8
+Omar,Alderete,Sunderland,Defender,Wolves,True,41,7.0,1125,1.707317073170732,0,5.798193478924933,0.2944567268023095,5.35
+Trevoh,Chalobah,Chelsea,Defender,Nott'm Forest,False,51,5.8,1165,1.1372549019607845,-1,5.41602560309064,0.2099796022588617,5.08
+Adrien,Truffert,Bournemouth,Defender,Crystal Palace,False,45,5.4,1140,1.2000000000000002,0,3.101458950082625,0.3869146809013968,4.86
+Gabriel,dos Santos Magalhães,Arsenal,Defender,Fulham,False,63,6.4,1125,1.015873015873016,1,3.9880774697543058,0.2547275030581593,4.65
+Erling,Haaland,Man City,Forward,Everton,True,145,9.8,1115,0.6758620689655173,1,4.546060565661952,0.148669833849234,7.31
+João Pedro,Junqueira de Jesus,Chelsea,Forward,Nott'm Forest,False,77,7.0,1165,0.9090909090909092,0,5.061526214398936,0.1796080610043556,5.35
+Viktor,Gyökeres,Arsenal,Forward,Fulham,False,91,4.6,1125,0.5054945054945055,1,4.029651999626672,0.1254437121471871,4.0
+Robin,Roefs,Sunderland,Goalkeeper,Wolves,True,46,6.2,1125,1.347826086956522,0,4.017817460121496,0.3354622504218409,4.43
+Guglielmo,Vicario,Spurs,Goalkeeper,Aston Villa,True,51,4.6,1250,0.9019607843137256,0,3.5118845842842465,0.2568309870859703,4.26
+Ryan,Gravenberch,Liverpool,Midfielder,Man Utd,True,57,7.0,1125,1.2280701754385963,1,5.154748157905347,0.2382405770018505,5.32
+Enzo,Fernández,Chelsea,Midfielder,Nott'm Forest,False,67,7.2,1165,1.0746268656716418,0,4.375255094603872,0.2456146767298231,5.26
+Antoine,Semenyo,Bournemouth,Midfielder,Crystal Palace,False,79,6.6,1140,0.8354430379746834,1,5.912053869204928,0.1413118108287867,4.7
+Josh,Cullen,Burnley,Midfielder,Leeds,True,50,5.4,1075,1.08,0,4.029651999626672,0.268013218039686,4.02
+João Maria,Lobo Alves Palhares Costa Palhinha Gonçalves,Spurs,Midfielder,Aston Villa,True,55,5.6,1250,1.018181818181818,0,4.111540089159037,0.2476400074187466,3.92
