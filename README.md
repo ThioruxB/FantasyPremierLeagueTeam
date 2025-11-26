@@ -91,18 +91,17 @@ ConectPremier/
     DB_CONNECTION_STRING=postgresql://usuario:password@host/dbname
     ```
 
-<<<<<<< HEAD
 ### Scraping de Datos de Partidos
 
 El proyecto también incluye un script para realizar web scraping de datos detallados de un partido desde WhoScored.com y cargarlos en la base de datos.
 
 -   **Fuente de Datos**: `pag3.json`, que contiene los datos de un partido.
--   **Script**: `insert_data_to_db.py`
+-   **Script**: `scripts/insert_data_to_db.py`
 
 Para ejecutar este proceso, utiliza el siguiente comando:
 
 ```bash
-python insert_data_to_db.py
+python scripts/insert_data_to_db.py
 ```
 
 ## Base de Datos
@@ -116,8 +115,6 @@ Adicionalmente, se han añadido scripts para trabajar con datos históricos de l
 -   `scripts/get_all_players_history_resumable.py`: Extrae de la API de FPL las estadísticas agregadas de las últimas dos temporadas de la carrera de cada jugador y las guarda en `all_players_history_resumable.csv`. El script es reanudable.
 -   `scripts/upload_season_history.py`: Sube los datos del CSV anterior a una tabla `player_season_history` en la base de datos, diseñada para almacenar este historial.
 
-=======
->>>>>>> 28b92f7 (Actualización del proyecto)
 ---
 
 ## 💻 Guía de Uso
@@ -157,13 +154,126 @@ python run_update.py
 
 ## 🗄️ Esquema de Base de Datos
 
-El sistema utiliza un esquema relacional robusto en PostgreSQL:
+El sistema utiliza una arquitectura de datos híbrida en PostgreSQL, dividida en dos esquemas lógicos principales: **Datos FPL (Fantasy Premier League)** y **Datos Detallados de Partidos (WhoScored)**.
 
-*   **`players`**: Información estática de los jugadores.
-*   **`teams`**: Datos de los equipos de la Premier League.
-*   **`fixtures`**: Calendario de partidos y resultados.
-*   **`player_history`**: Rendimiento histórico partido a partido.
-*   **`gameweeks`**: Información sobre las jornadas de la FPL.
+### 1. Esquema FPL (Fantasy Premier League)
+Este esquema almacena la información oficial de la API de la FPL, utilizada para el entrenamiento del modelo predictivo y la optimización de equipos.
+
+#### Diagrama Relacional Simplificado
+```mermaid
+erDiagram
+    TEAMS ||--o{ PLAYERS : "tiene"
+    TEAMS ||--o{ FIXTURES : "juega como local"
+    TEAMS ||--o{ FIXTURES : "juega como visitante"
+    PLAYERS ||--o{ PLAYER_HISTORY : "tiene historial"
+    GAMEWEEKS ||--o{ FIXTURES : "contiene"
+    PLAYER_TYPES ||--o{ PLAYERS : "define posición"
+```
+
+#### Diccionario de Datos
+
+**Tabla: `players`**
+Almacena la información actual de cada jugador de la FPL.
+
+| Columna | Tipo | Descripción |
+| :--- | :--- | :--- |
+| `id` | INT (PK) | Identificador único del jugador en la FPL. |
+| `Nombre` | VARCHAR | Primer nombre del jugador. |
+| `Apellido` | VARCHAR | Apellido del jugador. |
+| `team_id` | INT (FK) | ID del equipo al que pertenece (Ref: `teams.id`). |
+| `Posicion` | VARCHAR | Posición del jugador (GKP, DEF, MID, FWD). |
+| `Precio` | FLOAT | Costo actual del jugador en la FPL. |
+| `Puntos Totales` | INT | Puntos acumulados en la temporada actual. |
+| `status` | VARCHAR | Estado de disponibilidad (a=available, d=doubtful, i=injured, etc.). |
+| `chance_of_playing_next_round` | INT | Probabilidad (%) de jugar la próxima jornada. |
+
+**Tabla: `teams`**
+Información de los clubes de la Premier League.
+
+| Columna | Tipo | Descripción |
+| :--- | :--- | :--- |
+| `id` | INT (PK) | Identificador único del equipo. |
+| `name` | VARCHAR | Nombre completo del equipo (ej. Arsenal). |
+| `short_name` | VARCHAR | Abreviatura del equipo (ej. ARS). |
+| `strength` | INT | Fuerza general del equipo (1-5). |
+
+**Tabla: `player_history`**
+Historial de rendimiento partido a partido para cada jugador.
+
+| Columna | Tipo | Descripción |
+| :--- | :--- | :--- |
+| `element` | INT (FK) | ID del jugador (Ref: `players.id`). |
+| `fixture` | INT (FK) | ID del partido (Ref: `fixtures.id`). |
+| `total_points` | INT | Puntos obtenidos en ese partido. |
+| `minutes` | INT | Minutos jugados. |
+| `goals_scored` | INT | Goles marcados. |
+| `assists` | INT | Asistencias realizadas. |
+| `clean_sheets` | INT | Porterías a cero. |
+| `bps` | INT | Bonus Points System. |
+
+**Tabla: `fixtures`**
+Calendario de partidos.
+
+| Columna | Tipo | Descripción |
+| :--- | :--- | :--- |
+| `id` | INT (PK) | Identificador único del partido. |
+| `event` | INT (FK) | ID de la jornada (Ref: `gameweeks.id`). |
+| `team_h` | INT (FK) | ID del equipo local (Ref: `teams.id`). |
+| `team_a` | INT (FK) | ID del equipo visitante (Ref: `teams.id`). |
+| `kickoff_time` | TIMESTAMP | Fecha y hora del partido. |
+
+---
+
+### 2. Esquema de Datos Detallados (Match Events)
+Este esquema almacena datos granulares de eventos de partidos (pases, disparos, entradas) obtenidos mediante web scraping, permitiendo un análisis táctico profundo.
+
+#### Diagrama Relacional Simplificado
+```mermaid
+erDiagram
+    EQUIPOS ||--o{ JUGADORES : "tiene"
+    EQUIPOS ||--o{ PARTIDOS : "local"
+    EQUIPOS ||--o{ PARTIDOS : "visitante"
+    PARTIDOS ||--o{ EVENTOS : "genera"
+    PARTIDOS ||--o{ FORMACIONES : "tiene"
+    JUGADORES ||--o{ EVENTOS : "realiza"
+```
+
+#### Diccionario de Datos
+
+**Tabla: `partidos`**
+Metadatos de cada encuentro procesado.
+
+| Columna | Tipo | Descripción |
+| :--- | :--- | :--- |
+| `id_partido` | BIGINT (PK) | ID único del partido (origen externo). |
+| `fecha_inicio` | DATE | Fecha del partido. |
+| `marcador` | VARCHAR | Resultado final (ej. "2 : 1"). |
+| `nombre_estadio` | VARCHAR | Estadio donde se jugó. |
+| `nombre_arbitro` | VARCHAR | Nombre del árbitro principal. |
+
+**Tabla: `eventos`**
+Registro de cada acción que ocurre en el campo (aprox. 1500-2000 por partido).
+
+| Columna | Tipo | Descripción |
+| :--- | :--- | :--- |
+| `id_evento` | BIGINT (PK) | ID único del evento. |
+| `id_partido` | BIGINT (FK) | Partido al que pertenece. |
+| `minuto` | INT | Minuto del evento (0-90+). |
+| `tipo` | VARCHAR | Tipo de evento (Pass, Shot, Tackle, Save, etc.). |
+| `x`, `y` | NUMERIC | Coordenadas (0-100) de la posición del evento en el campo. |
+| `es_gol` | BOOLEAN | Indica si el evento resultó en gol. |
+| `es_disparo` | BOOLEAN | Indica si el evento fue un disparo. |
+
+**Tabla: `jugadores` (Schema Detallado)**
+Mapeo de jugadores específico para los datos de eventos.
+
+| Columna | Tipo | Descripción |
+| :--- | :--- | :--- |
+| `id_jugador` | BIGINT (PK) | ID único del jugador. |
+| `nombre` | VARCHAR | Nombre del jugador. |
+| `posicion` | VARCHAR | Posición táctica (ej. DC, MC, DFC). |
+| `altura` | INT | Altura en cm. |
+| `peso` | INT | Peso en kg. |
 
 ---
 
